@@ -5,11 +5,11 @@ export const Aboutus = () => {
     <div className='h-415'>
         <div>
         <h3 className="relative text-4xl text-dark font-extrabold mt-6 -ml-1 max-w-26 text-center">About Us</h3>
-        <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20">
+        <p className="relative text-center text-base text-gray mt-4 ml-5.2 max-w-20">
             The Story Behind PickBetta: From Frustration to Empowerment
         </p>
-        <img src={aboutus_image} alt="" className="relative mt-4 ml-5 w-20.2" />
-        <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+        <img src={aboutus_image} alt="" className="relative mt-4 ml-5 w-20.4" />
+        <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
         For over 40 years, I’ve been where you are—deep in the trenches of sports betting, constantly
         searching for that edge. Like so many bettors, I fell into the trap of paying thousands to
         so-called "expert" handicappers, hoping they held the key to consistent wins. Every Saturday and
@@ -21,7 +21,7 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left">
             The Pain of Paying for Picks
             </h3>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             The cycle was exhausting. I’d pay for picks, win some, lose some, and when the losses started to
             pile up, I’d jump to the next "expert." It was a never-ending loop—spending more money on picks
             and losing even more on the actual bets. I started to wonder: How do I even know these
@@ -37,7 +37,7 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left">
             The Turning Point
             </h3>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             I realized I had to change my approach. It was time to stop chasing picks and start chasing data.
             The only way to truly succeed in betting—consistently hitting that 60% winning percentage—is to
             make data-driven decisions. Once I made that shift, everything changed. I stopped relying on
@@ -57,7 +57,7 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left max-w-20">
             The Problem with Paying for Picks
             </h3>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             Paying for picks might seem like a shortcut to success, but it rarely translates into a winning
             strategy. It’s a game of hit or miss, and when you start missing, you’re back to square one,
             searching for another so-called expert. The truth is, no one cares more about your success than
@@ -70,7 +70,7 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left max-w-20">
             Our Solution: Data Empowerment
             </h3>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             At PickBetta, we have officially broken this cycle. We believe you’re fully capable of making your
             own winning decisions—you just need the same data that the pros have. That’s why we’ve built a
             state-of-the-art digital sports data warehouse, with nearly a century’s worth of stats and
@@ -84,7 +84,7 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left max-w-20">
             A New Way to Bet
             </h3>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             We’ve been through the frustrations, the wasted money, and the missed opportunities. We’ve seen
             firsthand that spending money on picks does not equal success. The only way to achieve a 60%
             winning percentage is to make data-driven decisions, and that’s exactly what PickBetta empowers
@@ -100,14 +100,14 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left max-w-21">
             Here’s what drives PickBetta:
             </h3>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>1. Transparency Over Profit:</span> We’re not here to sell you on a pick. We’re here to provide you with the
             facts—plain and simple. You      deserve to know that the data you’re using is trustworthy and
             that the      platform you’re relying on isn’t just another money-making scheme.
             </p>
         </div>
         <div>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>2. Empowerment Through Information: </span>
             We believe that the best bettor is an informed bettor. That’s why we focus on delivering data that
             is not only accurate but also actionable. With PickBetta, you have the power to make your own
@@ -115,7 +115,7 @@ export const Aboutus = () => {
             </p>
         </div>
         <div>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>3. A Commitment to Excellence: </span>
             After decades in the betting world, I know what works and what doesn’t. PickBetta is designed to
             offer the best of what I’ve learned—the kind of resource I wish I had when I started. It’s a
@@ -126,11 +126,11 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left max-w-20">
             The Future of Betting
             </h3>
-            <p className="relative mt-4 ml-6 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-6 text-base text-gray text-left max-w-20.2">
             PickBetta is more than just a tool—it’s a movement. It’s about shifting the focus from unreliable
             picks to solid, fact-checked data that empowers bettors to succeed on their own terms.
             </p>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             We’ve all been frustrated by the typical betting sites that seem more interested in profits than
             people. With PickBetta, we’re changing the game. We’re here to support you with the information
             you need, without the pressure of making a sale or pushing a narrative. Because at the end of the
@@ -145,28 +145,28 @@ export const Aboutus = () => {
             <p className="relative ml-5 mt-6 text-gray text-xl font-normal text-left max-w-20">
             Offer Value in a Competitive Industry:
             </p>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>1. Focus on Data Integrity and Transparency: <br /></span>
                 Fact-Checked Data: We ensure that all data is meticulously verified and sourced from reputable
                 sources. We emphasize the reliability and accuracy of your information.
                 Transparency in Analysis: We clearly explain the reasoning behind any analysis or insight,
                 allowing our users to understand the logic and methodology.
             </p>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>2. User Empowerment Over Pick Selling: <br /></span>
             Data-Driven Decisions: Instead of selling picks, we provide the tools and information that you
             need to make your own informed decisions. This approach empowers you rather than creating
             dependency. Educational Content: We offer content that educates users on how to interpret data,
             understand trends, and develop their own betting strategies.
             </p>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>3. Advanced Analytical Tools: <br /></span>
             Customizable Dashboards: Build your own dashboard with the stats and trends that you care about
             most. Predictive Analytics: We use proprietary machine learning to offer probability-based
             insights that help you identify the most likely outcomes based on historical data and current
             conditions.
             </p>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>4. Personalized User Experience: <br /></span>
             Location-Based Insights: We provide data and analysis tailored to your location, reflecting local
             conditions, team popularity, and regional betting trends.
@@ -179,7 +179,7 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left max-w-20">
             How are we unique?
             </h3>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>1. Fact-First Approach: <br /></span>
             Commitment to Accuracy: We are the most trustworthy source of sports betting information, with a
             strict adherence to fact-checking and data integrity.
@@ -187,7 +187,7 @@ export const Aboutus = () => {
             sell picks. Instead, we offer the tools and insights bettors need to make their own decisions
             confidently.
             </p>
-            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>2. Comprehensive and Tailored Insights: <br /></span>
             All-in-One Platform: We offer everything for a bettor in one place—stats, analysis, trends, and
             tools—eliminating the need to visit multiple sites for information.
@@ -200,16 +200,16 @@ export const Aboutus = () => {
             <p className="relative ml-5 mt-3 text-gray text-xl font-normal text-left max-w-20">
             Why PickBetta?
             </p>
-            <p className="relative mt-2 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-2 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>1. Integrity Over Influence: <br /></span>
             We don’t sell you picks. We equip you with the most accurate, relevant, and actionable data, so
             you can make smarter bets.
             </p>
-            <p className="relative mt-2 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-2 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>2. 100% Fact-Checked: <br /></span>
             Every stat, every trend, rigorously verified to ensure you’re betting with the best information available.
             </p>
-            <p className="relative mt-2 ml-5 text-base text-gray text-left max-w-20">
+            <p className="relative mt-2 ml-5 text-base text-gray text-left max-w-20.2">
             <span className='text-x font-bold text-gray-dark'>3. Custom-Tailored Experience: <br /></span>
             From personalized dashboards to real-time alerts, PickBetta offers a betting experience that’s as
             unique as you are.

@@ -24,7 +24,7 @@ export const Navbar = () => {
 
     return (
      <div>
-        <div className="relative mt-3 ml-5 w-20.2 h-7 bg-white shadow rounded-3xl"></div>
+        <div className="relative mt-3 ml-5 w-20.4 h-7 bg-white shadow rounded-3xl"></div>
         <img src={logo} alt="" className="absolute h-5 -mt-6.1 ml-7 z-10" />
         <img src={menu_icon} alt="" className="absolute h-5 -mt-6.1 ml-19.6 z-10" />
      </div>

@@ -37,7 +37,7 @@ export const Footer = () => {
               <p className="absolute mt-18 ml-7.5 text-base text-white-light text-left max-w-22">support@pickbetta.com</p>
               </div>
 
-              <img src={line} alt="" className="absolute h-0.1 mt-19.3 ml-5 sm:h-0.1 sm:mt-19.3 sm:ml-5 lg:mt-19.2 lg:ml-39 w-20.2" />
+              <img src={line} alt="" className="absolute h-0.1 mt-19.3 ml-5 sm:h-0.1 sm:mt-19.3 sm:ml-5 lg:mt-19.2 lg:ml-39 w-20.4" />
 
               <div className="absolute mt-19.6 ml-12 sm:mt-19.6 sm:ml-15 lg:mt-19.6 lg:ml-39 flex gap-2">
               <img src={facebook} alt="for facebook link" className="relative h-4.5" />
