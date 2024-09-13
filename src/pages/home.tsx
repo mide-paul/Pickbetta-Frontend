@@ -11,7 +11,7 @@ export const Home = () => {
     return (
       <div className="home">
         <div>
-          <h3 className="relative text-xl text-dark font-extrabold mt-6 -ml-1 max-w-26 text-center">
+          <h3 className="relative text-xl text-dark font-extrabold mt-11 -ml-1 max-w-26 text-center">
             Your ultimate source for <span className="italic text-green-deep"> fact-checked </span>sports <span className="italic text-green-deep">betting data</span>
           </h3>
         </div>

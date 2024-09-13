@@ -23,10 +23,11 @@ export const Navbar = () => {
   if (pathname === "/signup") return null;
 
     return (
-     <div>
-        <div className="relative mt-3 ml-5 w-20.4 h-7 bg-white shadow rounded-3xl"></div>
-        <img src={logo} alt="" className="absolute h-5 -mt-6.1 ml-7 z-10" />
-        <img src={menu_icon} alt="" className="absolute h-5 -mt-6.1 ml-19.6 z-10" />
+     <div className="fixed h-10 w-full bg-white z-10">
+        <div className="relative mt-3 ml-5 w-20.4 h-7 bg-white shadow rounded-3xl">
+        <img src={logo} alt="" className="absolute h-5 mt-2.5 ml-4.5 z-10" />
+        <img src={menu_icon} alt="" className="absolute h-5 mt-2.5 ml-19.3 z-10" />
+        </div>
      </div>
     )
 }
