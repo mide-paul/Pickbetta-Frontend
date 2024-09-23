@@ -11,7 +11,7 @@ export const Home = () => {
     return (
       <div className="home">
         <div>
-          <h3 className="relative text-4xl text-dark font-extrabold mt-6 ml-5 max-w-20 text-center">
+          <h3 className="relative text-4xl text-dark font-extrabold mt-11 ml-5 max-w-20 text-center">
             Your ultimate source for <span className="italic text-green-deep underline"> fact-checked </span>sports <span className="italic text-green-deep underline">betting data</span>
           </h3>
         </div>
@@ -113,7 +113,7 @@ export const Home = () => {
           <h3 className="relative mt-8 ml-5 text-4xl font-extrabold text-left">
           Get PickBetta for just $10 a week
           </h3>
-          <p className="relative mt-3 ml-5 text-xl text-gray text-left max-w-19.4">
+          <p className="relative mt-3 ml-5 text-xl text-gray text-left max-w-19.4">np
           Your first week is always free. Start your trial now and see the difference!
           </p>
         </div>

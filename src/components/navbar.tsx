@@ -22,13 +22,14 @@ export const Navbar = () => {
   if (pathname === "/signup") return null;
 
     return (
-     <div>
-        <div className="relative mt-3 ml-5 w-20.5 h-7 bg-white shadow-2xl rounded-3xl"></div>
-        <img src={logo} alt="" className="absolute h-5 -mt-6.1 ml-7 z-10" />
+     <div className="relative">
+      <div className="fixed mt-0 ml-0 w-screen h-10 bg-white z-10"></div>
+        <div className="fixed mt-3 ml-5 w-20.5 h-7 bg-white shadow rounded-3xl z-20">
+        <img src={logo} alt="" className="absolute h-5 mt-2.5 ml-4.6 z-10" />
         <div ref={dropdownRef}>
-        <img onClick={() => setOpen(!open)} src={menu_icon} alt="" className="absolute h-5 -mt-6.1 ml-19.8 z-10" />
+        <img onClick={() => setOpen(!open)} src={menu_icon} alt="" className="absolute h-5 mt-2.5 ml-19.5 z-10" />
         { open && (
-          <div className="absolute bg-white w-screen h-21 mt-2.5 ml-0 z-10">
+          <div className="absolute bg-white w-screen h-21 mt-8 ml-0 z-10">
             <div className="flex flex-col gap-4">
             <h3 className="relative mt-4 text-center text-dark text-base font-normal">NFL</h3>
             <h3 className="relative text-center text-dark text-base font-normal">NCAAF</h3>
@@ -41,6 +42,7 @@ export const Navbar = () => {
             </div>
           </div>
         )}
+        </div>
         </div>
      </div>
     )
