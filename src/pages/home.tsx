@@ -29,7 +29,7 @@ export const Home = () => {
           <p className="relative mt-3 ml-5.2 text-dark text-base font-bold max-w-20">
           Try PickBetta free for a week—just $10 a week after. Start winning smarter today!
           </p>
-          <button className="relative h-7 w-20 ml-0.1 bg-green-deep rounded text-white mt-4">Start now!</button>
+          <button className="relative h-7 w-20 -ml-0.4 bg-green-deep rounded text-white mt-4">Start now!</button>
         </div>
 
         <div>
@@ -117,7 +117,7 @@ export const Home = () => {
           Your first week is always free. Start your trial now and see the difference!
           </p>
         </div>
-        <button className="relative h-7 w-15 -ml-15.1 font-bold bg-green-deep rounded text-white mt-4.7">Start now!</button>
+        <button className="relative h-7 w-15 -ml-15.2 font-bold bg-green-deep rounded text-white mt-4.7">Start now!</button>
       </div>
     );
   };

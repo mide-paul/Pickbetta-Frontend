@@ -1,7 +1,7 @@
 
 export const Terms = () => {
     return (
-        <div className="h-1245">
+        <div className="h-1248">
             <div className="relative bg-green-light w-screen h-19.3 mt-3">
             <h3 className="relative text-4xl text-dark font-extrabold pt-9 ml-0 max-w-26 text-center">Terms & Conditions</h3>
             <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20">
