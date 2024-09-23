@@ -4,7 +4,7 @@ export const Aboutus = () => {
   return (
     <div className='about'>
         <div>
-        <h3 className="relative text-5xl text-dark font-extrabold mt-11 ml-2 max-w-26 text-center">About Us</h3>
+        <h3 className="relative text-5xl text-dark font-extrabold mt-11 ml-0 max-w-26 text-center">About Us</h3>
         <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20">
             The Story Behind PickBetta: From Frustration to Empowerment
         </p>

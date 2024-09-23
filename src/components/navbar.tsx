@@ -30,6 +30,7 @@ export const Navbar = () => {
         <img onClick={() => setOpen(!open)} src={menu_icon} alt="" className="absolute h-5 mt-2.5 ml-19.5 z-10" />
         { open && (
           <div className="absolute bg-white w-screen h-21 mt-8 ml-0 z-10">
+            <div className="absolute bg-white -ml-5 h-20 w-screen mt-0"></div>
             <div className="flex flex-col gap-4 -ml-7">
             <h3 className="relative mt-4 text-center text-dark text-base font-normal">NFL</h3>
             <h3 className="relative text-center text-dark text-base font-normal">NCAAF</h3>
