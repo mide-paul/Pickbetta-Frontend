@@ -23,10 +23,10 @@ export const Navbar = () => {
 
     return (
      <div>
-        <div className="relative mt-3 ml-5 w-19.8 h-7 bg-white shadow-2xl rounded-3xl"></div>
+        <div className="relative mt-3 ml-5 w-20.5 h-7 bg-white shadow-2xl rounded-3xl"></div>
         <img src={logo} alt="" className="absolute h-5 -mt-6.1 ml-7 z-10" />
         <div ref={dropdownRef}>
-        <img onClick={() => setOpen(!open)} src={menu_icon} alt="" className="absolute h-5 -mt-6.1 ml-19.3 z-10" />
+        <img onClick={() => setOpen(!open)} src={menu_icon} alt="" className="absolute h-5 -mt-6.1 ml-19.8 z-10" />
         { open && (
           <div className="absolute bg-white w-screen h-21 mt-2.5 ml-0 z-10">
             <div className="flex flex-col gap-4">
@@ -36,8 +36,8 @@ export const Navbar = () => {
             <h3 className="relative text-center text-dark text-base font-normal">FAQs</h3>
             </div>
             <div className="flex flex-col">
-              <button className="relative p-2 w-19.8 ml-5 mt-4 font-bold text-green border rounded">Login</button>
-              <button className="relative p-2 w-19.8 ml-5 mt-4 font-medium text-white bg-green rounded">Start Now!</button>
+              <button className="relative p-2 w-20.5 ml-5 mt-4 font-bold text-green border rounded">Login</button>
+              <button className="relative p-2 w-20.5 ml-5 mt-4 font-medium text-white bg-green rounded">Start Now!</button>
             </div>
           </div>
         )}

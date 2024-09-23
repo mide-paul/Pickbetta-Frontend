@@ -4,11 +4,11 @@ export const Aboutus = () => {
   return (
     <div className='h-450'>
         <div>
-        <h3 className="relative text-4xl text-dark font-extrabold mt-6 -ml-1 max-w-26 text-center">About Us</h3>
-        <p className="relative text-center text-base text-gray mt-4 ml-3 max-w-20">
+        <h3 className="relative text-4xl text-dark font-extrabold mt-6 ml-2 max-w-26 text-center">About Us</h3>
+        <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20">
             The Story Behind PickBetta: From Frustration to Empowerment
         </p>
-        <img src={aboutus_image} alt="" className="relative mt-4 ml-5 w-19.8" />
+        <img src={aboutus_image} alt="" className="relative mt-4 ml-5 w-20.5" />
         <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-19.4">
         For over 40 years, I’ve been where you are—deep in the trenches of sports betting, constantly
         searching for that edge. Like so many bettors, I fell into the trap of paying thousands to
@@ -126,7 +126,7 @@ export const Aboutus = () => {
             <h3 className="relative ml-5 mt-6 text-xl font-extrabold text-left max-w-20">
             The Future of Betting
             </h3>
-            <p className="relative mt-4 ml-6 text-base text-gray text-left max-w-19.4">
+            <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-19.4">
             PickBetta is more than just a tool—it’s a movement. It’s about shifting the focus from unreliable
             picks to solid, fact-checked data that empowers bettors to succeed on their own terms.
             </p>

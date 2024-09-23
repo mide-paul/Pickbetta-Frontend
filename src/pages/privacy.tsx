@@ -3,8 +3,8 @@ export const Privacy = () => {
     return (
         <div className="h-878">
             <div className="relative bg-green-light w-screen h-19.3 mt-3">
-            <h3 className="relative text-4xl text-dark font-extrabold pt-9 -ml-2 max-w-26 text-center">Privacy Policy</h3>
-            <p className="relative text-center text-base text-gray mt-4 ml-3 max-w-20">
+            <h3 className="relative text-4xl text-dark font-extrabold pt-9 ml-0 max-w-26 text-center">Privacy Policy</h3>
+            <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20">
                 Version 1.1 | September 2024
             </p>
             </div>
