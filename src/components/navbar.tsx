@@ -23,7 +23,7 @@ export const Navbar = () => {
 
     return (
      <div>
-        <div className="relative mt-3 ml-5 w-19.7 h-7 bg-white shadow-2xl rounded-3xl"></div>
+        <div className="relative mt-3 ml-5 w-19.8 h-7 bg-white shadow-2xl rounded-3xl"></div>
         <img src={logo} alt="" className="absolute h-5 -mt-6.1 ml-7 z-10" />
         <div ref={dropdownRef}>
         <img onClick={() => setOpen(!open)} src={menu_icon} alt="" className="absolute h-5 -mt-6.1 ml-19.3 z-10" />

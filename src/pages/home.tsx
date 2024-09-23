@@ -11,25 +11,25 @@ export const Home = () => {
     return (
       <div className="home">
         <div>
-          <h3 className="relative text-4xl text-dark font-extrabold mt-6 -ml-1 max-w-26 text-center">
+          <h3 className="relative text-4xl text-dark font-extrabold mt-6 ml-2 max-w-20 text-center">
             Your ultimate source for <span className="italic text-green-deep underline"> fact-checked </span>sports <span className="italic text-green-deep underline">betting data</span>
           </h3>
         </div>
 
         <div>
-          <p className="relative mt-3 text-sm text-gray text-center ml-7 max-w-19">We don’t advise you to pick, we advise you to pickbetta!</p>
+          <p className="relative mt-3 text-sm text-gray text-center ml-8 max-w-19">We don’t advise you to pick, we advise you to pickbetta!</p>
         </div>
         <div>
-          <img src={home_image} alt="" className="relative mt-4 ml-5.2 w-19.4" />
-          <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-19.5">Experience the power of verified data- Try pickbetta free for one week. We’re so
+          <img src={home_image} alt="" className="relative mt-4 ml-5 w-19.8" />
+          <p className="relative text-center text-base text-gray mt-4 ml-5.2 max-w-19.5">Experience the power of verified data- Try pickbetta free for one week. We’re so
             confident in the value that we deliver that we’re giving you the chance to fact-check
             our data yourself. See the difference that accurate, reliable insights can make in your
             betting strategy.
           </p>
-          <p className="relative mt-3 ml-0.1 text-dark text-base font-bold max-w-22">
+          <p className="relative mt-3 ml-3 text-dark text-base font-bold max-w-20">
           Try PickBetta free for a week—just $10 a week after. Start winning smarter today!
           </p>
-          <button className="relative h-7 w-19.5 -ml-0.5 bg-green-deep rounded text-white mt-4">Start now!</button>
+          <button className="relative h-7 w-19.7 -ml-5 bg-green-deep rounded text-white mt-4">Start now!</button>
         </div>
 
         <div>
@@ -41,7 +41,7 @@ export const Home = () => {
           bettors, for bettors. We understand what you need because we’re in the game with you. We place
           multiple bets daily during year round.
           </p>
-          <img src={home_image2} alt="" className="relative mt-4 ml-5.2 w-19.4" />
+          <img src={home_image2} alt="" className="relative mt-4 ml-5 w-19.8" />
         </div>
 
         <div>
@@ -53,7 +53,7 @@ export const Home = () => {
           you with the data you need to make informed, confident betting decisions. No fluff, no gimmicks—just
           pure, valuable insights.
           </p>
-          <img src={home_image3} alt="" className="relative mt-4 ml-5.2 w-19.4" />
+          <img src={home_image3} alt="" className="relative mt-4 ml-5 w-19.8" />
         </div>
 
         <div>
@@ -65,7 +65,7 @@ export const Home = () => {
         </div>
 
         <div>
-          <div className="relative ml-5 mt-6 bg-gray-lighter h-17 w-19.5 rounded-xl">
+          <div className="relative ml-5 mt-6 bg-gray-lighter h-17 w-19.8 rounded-xl">
           <img src={presentation} alt="" className="relative pt-6 ml-4" />
             <h3 className="relative ml-5 mt-4 text-xl font-extrabold text-left">Fact-Checked Insights</h3>
             <p className="relative mt-3 ml-5 text-base text-gray text-left max-w-19">Every stat, trend, and
@@ -75,7 +75,7 @@ export const Home = () => {
         </div>
 
         <div>
-          <div className="relative ml-5 mt-6 bg-gray-lighter h-17 w-19.5 rounded-xl">
+          <div className="relative ml-5 mt-6 bg-gray-lighter h-17 w-19.8 rounded-xl">
           <img src={presentation} alt="" className="relative pt-6 ml-4" />
             <h3 className="relative ml-5 mt-4 text-xl font-extrabold text-left">Customizable Tools</h3>
             <p className="relative mt-3 ml-5 text-base text-gray text-left max-w-19.6">Tailor your
@@ -85,7 +85,7 @@ export const Home = () => {
         </div>
 
         <div>
-          <div className="relative ml-5 mt-6 bg-gray-lighter h-19.2 w-19.5 rounded-xl">
+          <div className="relative ml-5 mt-6 bg-gray-lighter h-19.2 w-19.8 rounded-xl">
           <img src={analysis} alt="" className="relative pt-6 ml-4" />
             <h3 className="relative ml-5 mt-4 text-xl font-extrabold text-left">Comprehensive Coverage</h3>
             <p className="relative mt-3 ml-5 text-base text-gray text-left max-w-19.6">Whether you’re into
@@ -117,7 +117,7 @@ export const Home = () => {
           Your first week is always free. Start your trial now and see the difference!
           </p>
         </div>
-        <button className="relative h-7 w-15 -ml-12.5 font-bold bg-green-deep rounded text-white mt-4.7">Start now!</button>
+        <button className="relative h-7 w-15 -ml-15.1 font-bold bg-green-deep rounded text-white mt-4.7">Start now!</button>
       </div>
     );
   };

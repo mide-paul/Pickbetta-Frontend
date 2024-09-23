@@ -8,7 +8,7 @@ export const Aboutus = () => {
         <p className="relative text-center text-base text-gray mt-4 ml-3 max-w-20">
             The Story Behind PickBetta: From Frustration to Empowerment
         </p>
-        <img src={aboutus_image} alt="" className="relative mt-4 ml-5.2 w-19.4" />
+        <img src={aboutus_image} alt="" className="relative mt-4 ml-5 w-19.8" />
         <p className="relative mt-4 ml-5 text-base text-gray text-left max-w-19.4">
         For over 40 years, I’ve been where you are—deep in the trenches of sports betting, constantly
         searching for that edge. Like so many bettors, I fell into the trap of paying thousands to
