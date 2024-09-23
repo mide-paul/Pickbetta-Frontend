@@ -25,7 +25,31 @@
   background-color: #ffffff;
   position: relative;
   width: 100%;
-  height: 4090px;
+  height: 4140px;
+  overflow: hidden;
+}
+
+.about {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 7300px;
+  overflow: hidden;
+}
+
+.privacy {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 14080px;
+  overflow: hidden;
+}
+
+.terms {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 19970px;
   overflow: hidden;
 }
 
