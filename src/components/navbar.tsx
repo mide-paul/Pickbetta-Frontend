@@ -30,15 +30,15 @@ export const Navbar = () => {
         <img onClick={() => setOpen(!open)} src={menu_icon} alt="" className="absolute h-5 mt-2.5 ml-19.5 z-10" />
         { open && (
           <div className="absolute bg-white w-screen h-21 mt-8 ml-0 z-10">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 -ml-7">
             <h3 className="relative mt-4 text-center text-dark text-base font-normal">NFL</h3>
             <h3 className="relative text-center text-dark text-base font-normal">NCAAF</h3>
             <h3 className="relative text-center text-dark text-base font-normal">Pricing</h3>
             <h3 className="relative text-center text-dark text-base font-normal">FAQs</h3>
             </div>
             <div className="flex flex-col">
-              <button className="relative p-2 w-20.5 ml-5 mt-4 font-bold text-green border rounded">Login</button>
-              <button className="relative p-2 w-20.5 ml-5 mt-4 font-medium text-white bg-green rounded">Start Now!</button>
+              <button className="relative p-2 w-20.5 ml-0 mt-4 font-bold text-green border rounded">Login</button>
+              <button className="relative p-2 w-20.5 ml-0 mt-4 font-medium text-white bg-green rounded">Start Now!</button>
             </div>
           </div>
         )}
