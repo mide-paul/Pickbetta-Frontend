@@ -10,6 +10,7 @@ import { Footer } from './components/footer'
 import { Aboutus } from './pages/aboutus';
 import { Privacy } from "./pages/privacy";
 import { Terms } from "./pages/terms";
+import { Faqs } from "./pages/faqs";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path="/faqs" element={<Faqs />} />
           </Routes>
           <Footer />
         </Router>
