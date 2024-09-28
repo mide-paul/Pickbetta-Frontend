@@ -11,6 +11,7 @@ import { Aboutus } from './pages/aboutus';
 import { Privacy } from "./pages/privacy";
 import { Terms } from "./pages/terms";
 import { Faqs } from "./pages/faqs";
+import { Pricing } from "./pages/pricing";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/faqs" element={<Faqs />} />
+            <Route path="/pricing" element={<Pricing />} />
           </Routes>
           <Footer />
         </Router>

@@ -83,7 +83,7 @@ const handleClickOutsideDropdownsix =(e:any)=>{
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Tips & Insight</h3>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General Responsible Gambling Questions</h3>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Time Management & Self-Control</h3>
-                <img src={line} className='relative mt-9 -ml-110 h-1 w-12.6'/>
+                <img src={line} className='absolute mt-9 ml-5 h-1 w-12.6'/>
             </div>
 
             <div>

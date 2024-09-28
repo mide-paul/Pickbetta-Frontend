@@ -34,7 +34,7 @@ export const Navbar = () => {
             <div className="absolute bg-white -ml-5 h-19.6 w-screen mt-0"></div>
             <div className="flex flex-col gap-4 -ml-7">
             <h3 className="relative mt-4 text-center text-dark text-base font-normal">Betta Insights</h3>
-            <h3 className="relative text-center text-dark text-base font-normal">Pricing</h3>
+            <Link to="/pricing"><h3 className="relative text-center text-dark text-base font-normal">Pricing</h3></Link>
             <Link to="/faqs"><h3 className="relative text-center text-dark text-base font-normal">FAQs</h3></Link>
             </div>
             <div className="flex flex-col">
