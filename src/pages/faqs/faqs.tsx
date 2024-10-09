@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
-import search from './../assets/icons/search.png'
-import line from './../assets/images/line_green.png'
+import search from './../../assets/icons/search.png'
+import line from './../../assets/images/line_green.png'
+import faq_styled from './../../assets/images/faq_styled.png'
 
 export const Faqs = () => {
   const [ open, setOpen ] = useState(false);
@@ -60,7 +62,7 @@ const handleClickOutsideDropdownsix =(e:any)=>{
   window.addEventListener("click",handleClickOutsideDropdownsix)
 
     return (
-        <div className="relative h-60 w-full bg-white overflow-hidden">
+        <div className="relative h-80 w-full bg-white overflow-hidden">
             <div>
                 <h3 className="relative text-4xl text-dark font-extrabold mt-11 ml-5 max-w-20 text-center">
                 Frequently Asked Questions (FAQs)
@@ -73,17 +75,25 @@ const handleClickOutsideDropdownsix =(e:any)=>{
             </div>
 
             <div className='flex overflow-scroll scroll-smooth text-nowrap'>
+                <div>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>General Questions</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Subscription & Pricing</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Features & Functionality</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Data & Analytics</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General NFL Betting Questions</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Betting Types & Strategies</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Rules & Terms</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Tips & Insight</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General Responsible Gambling Questions</h3>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Time Management & Self-Control</h3>
-                <img src={line} className='absolute mt-9 ml-5 h-1 w-12.6'/>
+                <img src={line} className='relative mt-2 ml-5 h-1 w-12.6'/>
+                </div>
+                <Link to="/subscriptions"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Subscription & Pricing</h3></Link>
+                <Link to="/features"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Features & Functionality</h3></Link>
+                <Link to="/data"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Data & Analytics</h3></Link>
+                <Link to="/generalnfl"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General NFL Betting Questions</h3></Link>
+                <Link to="/betting"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Betting Types & Strategies</h3></Link>
+                <Link to="/nflbettingrules"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Rules & Terms</h3></Link>
+                <Link to="/nflbettingtips"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Tips & Insight</h3></Link>
+                <Link to="/generalquestions"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General Responsible Gambling Questions</h3></Link>
+                <Link to="/financialmanagement"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Financial Management & Limits</h3></Link>
+                <Link to="/timemanagement"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Time Management & Self-Control</h3></Link>
+                <Link to="/understandingtheodds"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Understanding the Odds & Managing Expectations</h3></Link>
+                <Link to="/pickbettaterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>PickBetta Terms & Sports Analytics</h3></Link>
+                <Link to="/sportbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Sports Betting Terms</h3></Link>
+                <Link to="/nflbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Terms & Definitions</h3></Link>
+                <Link to="/sportsbookterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Sportsbook Terms & Definitions</h3></Link>
             </div>
 
             <div>
@@ -92,8 +102,8 @@ const handleClickOutsideDropdownsix =(e:any)=>{
                     <h3 onClick={() => setOpen(!open)} className="absolute ml-19.5 -mt-4.6 font-medium text-xl text-dark">+</h3>
                     { open && (
                         <p className="relative pt-2 text-sm font-medium text-left">
-                            PickBetta is a platform that offers accurate data, insights, e.t.c for betting purposes.
-                            We don’t advise you to pick, we advise you to pickbetta! 
+                            PickBetta is a sports analytics platform providing data-driven insights, trends,
+                            and statistics to help users make smarter sports betting decisions. 
                         </p>
                     )}
                 </div>
@@ -151,6 +161,17 @@ const handleClickOutsideDropdownsix =(e:any)=>{
                             and detailed sports data queries for Premium and VIP users.
                         </p>
                     )}
+                </div>
+            </div>
+
+            <div>
+                <div className="relative ml-5 mt-9 h-19.5 w-20.4 bg-green rounded-2xl">
+                <img src={faq_styled} className='absolute mt-0 ml-19.17 h-19.5 rounded-tr-2xl'/>
+                    <h3 className="relative pt-8 ml-4 max-w-16 text-left text-white text-xl font-bold">Get PickBetta for just $10 a week</h3>
+                    <p className="relative pt-3 ml-4 max-w-19.3 text-left text-white text-base font-medium">
+                    Your first week is always free. Start your trial now and see the difference!
+                    </p>
+                    <button className="relative p-2 w-13 ml-4 mt-4 float-left font-bold text-green bg-white rounded">Start Now!</button>
                 </div>
             </div>
         </div>

@@ -39,7 +39,7 @@ export const Footer = () => {
 
               <img src={line} alt="" className="absolute h-0.1 mt-19.3 ml-5 sm:h-0.1 sm:mt-19.3 sm:ml-5 lg:mt-19.2 lg:ml-39 w-20.5" />
 
-              <div className="absolute mt-19.6 ml-13 sm:mt-19.6 sm:ml-15 lg:mt-19.6 lg:ml-39 flex gap-2">
+              <div className="absolute mt-19.6 ml-13.5 sm:mt-19.6 sm:ml-15 lg:mt-19.6 lg:ml-39 flex gap-2">
               <img src={facebook} alt="for facebook link" className="relative h-4.5" />
               <img src={message} alt="for facebook link" className="relative h-3.5" />
               <img src={instagram} alt="for facebook link" className="relative h-4.5" />
@@ -47,7 +47,7 @@ export const Footer = () => {
               </div>
 
               <div>
-              <h3 className="absolute mt-20.5 ml-9 sm:mt-20.5 text-white text-sm lg:ml-35 lg:mt-22.5">© 2024 PickBetta. All Rights Reserved</h3>
+              <h3 className="absolute mt-20.5 ml-10 sm:mt-20.5 text-white text-sm lg:ml-35 lg:mt-22.5">© 2024 PickBetta. All Rights Reserved</h3>
               </div>
           </div>
          </div>
