@@ -33,7 +33,7 @@ export const Footer = () => {
               </div>
 
               <div>
-              <img src={envelope_white} alt="" className="absolute ml-5 mt-19.15 sm:mt-19.15 sm:ml-5" />
+              <img src={envelope_white} alt="" className="absolute ml-5 mt-19.14 sm:mt-19.15 sm:ml-5" />
               <p className="absolute mt-18 ml-7.5 text-base text-white-light text-left max-w-22">support@pickbetta.com</p>
               </div>
 
@@ -41,7 +41,7 @@ export const Footer = () => {
 
               <div className="absolute mt-19.6 ml-13.5 sm:mt-19.6 sm:ml-15 lg:mt-19.6 lg:ml-39 flex gap-2">
               <img src={facebook} alt="for facebook link" className="relative h-4.5" />
-              <img src={message} alt="for facebook link" className="relative h-3.5" />
+              <img src={message} alt="for facebook link" className="relative h-4.5" />
               <img src={instagram} alt="for facebook link" className="relative h-4.5" />
               <img src={youtube} alt="for facebook link" className="relative h-4.5" />
               </div>

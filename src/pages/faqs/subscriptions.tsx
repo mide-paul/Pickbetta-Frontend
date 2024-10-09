@@ -78,7 +78,7 @@ const handleClickOutsideDropdownsix =(e:any)=>{
                 <Link to="/faqs"><h3 className='relative mt-5 ml-5 text-left text-dark font-medium text-sm'>General Questions</h3></Link>
                 <div>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>Subscription & Pricing</h3>
-                <img src={line} className='relative mt-2 ml-5 h-1 w-15'/>
+                <img src={line} className='relative mt-2 ml-5 h-1 w-14'/>
                 </div>
                 <Link to="/features"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Features & Functionality</h3></Link>
                 <Link to="/data"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Data & Analytics</h3></Link>

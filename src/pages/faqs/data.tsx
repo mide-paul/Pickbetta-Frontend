@@ -62,7 +62,7 @@ const handleClickOutsideDropdownfour =(e:any)=>{
                 <Link to="/features"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Features & Functionality</h3></Link>
                 <div>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>Data & Analytics</h3>
-                <img src={line} className='relative mt-2 ml-5 h-1 w-12'/>
+                <img src={line} className='relative mt-2 ml-5 h-1 w-11'/>
                 </div>
                 <Link to="/generalnfl"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General NFL Betting Questions</h3></Link>
                 <Link to="/betting"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Betting Types & Strategies</h3></Link>
