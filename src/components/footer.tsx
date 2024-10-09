@@ -24,7 +24,7 @@ export const Footer = () => {
             are responsible for ensuring that their activities comply with applicable laws.
             </p>
 
-              <div className="absolute ml-5.4 mt-6 sm:mt-6 sm:ml-5 flex flex-col gap-3 lg:gap-3 text-left lg:mt-7 lg:ml-8">
+              <div className="absolute ml-5 mt-6 sm:mt-6 sm:ml-5 flex flex-col gap-3 lg:gap-3 text-left lg:mt-7 lg:ml-8">
               <h3 className="relative text-white font-bold lg:text-sm lg:hover:text-green">Company</h3>
               <Link to="/aboutus"><h3 className="relative text-white lg:text-sm lg:hover:text-green">About Us</h3></Link>
               <h3 className="relative text-white-light lg:text-sm lg:hover:text-green">Contact</h3>
