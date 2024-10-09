@@ -77,7 +77,7 @@ const handleClickOutsideDropdownsix =(e:any)=>{
             <div className='flex overflow-scroll scroll-smooth text-nowrap'>
                 <div>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>General Questions</h3>
-                <img src={line} className='relative mt-2 ml-5 h-1 w-10'/>
+                <img src={line} className='relative mt-2 ml-5 h-1 w-11.5'/>
                 </div>
                 <Link to="/subscriptions"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Subscription & Pricing</h3></Link>
                 <Link to="/features"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Features & Functionality</h3></Link>
