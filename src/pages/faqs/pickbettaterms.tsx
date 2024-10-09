@@ -125,7 +125,7 @@ const handleClickOutsideDropdownten =(e:any)=>{
                 <Link to="/understandingtheodds"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Understanding the Odds & Managing Expectations</h3></Link>
                 <div>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>PickBetta Terms & Sports Analytics</h3>
-                <img src={line} className='relative mt-2 ml-5 h-1 w-19.2'/>
+                <img src={line} className='relative mt-2 ml-5 h-1 w-17.5'/>
                 </div>
                 <Link to="/sportbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Sports Betting Terms</h3></Link>
                 <Link to="/nflbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Terms & Definitions</h3></Link>

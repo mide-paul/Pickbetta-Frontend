@@ -73,7 +73,7 @@ const handleClickOutsideDropdownfive =(e:any)=>{
                 <Link to="/generalnfl"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General NFL Betting Questions</h3></Link>
                 <div>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>Betting Types & Strategies</h3>
-                <img src={line} className='relative mt-2 ml-5 h-1 w-16'/>
+                <img src={line} className='relative mt-2 ml-5 h-1 w-15'/>
                 </div>
                 <Link to="/nflbettingrules"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Rules & Terms</h3></Link>
                 <Link to="/nflbettingtips"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Tips & Insight</h3></Link>

@@ -217,7 +217,7 @@ const handleClickOutsideDropdowntwenty =(e:any)=>{
                 <Link to="/sportbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Sports Betting Terms</h3></Link>
                 <div>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>NFL Betting Terms & Definitions</h3>
-                <img src={line} className='relative mt-2 ml-5 h-1 w-17.6'/>
+                <img src={line} className='relative mt-2 ml-5 h-1 w-16.1'/>
                 </div>
                 <Link to="/sportsbookterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Sportsbook Terms & Definitions</h3></Link>
             </div>
