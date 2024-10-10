@@ -247,7 +247,7 @@ export const Signup = () => {
             <button
             disabled={!validName || !validPwd || !validMatch ? true : false}
             type="submit"
-            className='relative mt-9.5 -ml-6 h-6 w-21.3 bg-green text-white text-sm rounded'>
+            className='relative mt-9.5 -ml-7 h-6 w-21.3 bg-green text-white text-sm rounded'>
             Create Account
             </button>
 

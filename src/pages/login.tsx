@@ -123,6 +123,10 @@ export const Login = () => {
                 Must include uppercase and lowercase letters, a number and a special character.<br />
                 Allowed special characters: <span aria-label="exclamation mark">!</span> <span aria-label="at symbol">@</span> <span aria-label="hashtag">#</span> <span aria-label="dollar sign">$</span> <span aria-label="percent">%</span>
                 </p>
+
+                <span className="items-center" onClick={handleToggle}>
+                    <Icon className="absolute ml-13 -mt-5.2 z-10 cursor-pointer" icon={icon} size={20}/>
+                </span>
               </div>
 
               <div>
@@ -132,11 +136,7 @@ export const Login = () => {
               </div>
             </form>
 
-            <span className="items-center" onClick={handleToggle}>
-                    <Icon className="absolute ml-19.3 -mt-5.2 z-10 cursor-pointer" icon={icon} size={20}/>
-            </span>
-
-            <button className='relative mt-8 -ml-6 h-6 w-21.3 bg-green text-white text-sm rounded'>Login</button>
+            <button className='relative mt-8 -ml-7 h-6 w-21.3 bg-green text-white text-sm rounded'>Login</button>
 
             <div>
             <img src={line} alt="" className="absolute mt-2 ml-4 h-0.1 w-12.1" />

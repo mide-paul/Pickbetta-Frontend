@@ -80,7 +80,7 @@ const handleClickOutsideDropdownfive =(e:any)=>{
                 <Link to="/timemanagement"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Time Management & Self-Control</h3></Link>
                 <div>
                 <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>Understanding the Odds & Managing Expectations</h3>
-                <img src={line} className='relative mt-2 ml-5 h-1 w-19.7'/>
+                <img src={line} className='relative mt-2 ml-5 h-1 w-19.4'/>
                 </div>
                 <Link to="/pickbettaterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>PickBetta Terms & Sports Analytics</h3></Link>
                 <Link to="/sportbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Sports Betting Terms</h3></Link>
