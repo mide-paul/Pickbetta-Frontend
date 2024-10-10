@@ -84,7 +84,7 @@ export const Login = () => {
                 aria-describedby="uidnote"
                 onFocus={() => setEmailFocus(true)}
                 onBlur={() => setEmailFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-3 border rounded'
                 />
 
                 <p id="uidnote" className={emailFocus && email &&
@@ -114,7 +114,7 @@ export const Login = () => {
                 aria-describedby="pwdnote"
                 onFocus={() => setPwdFocus(true)}
                 onBlur={() => setPwdFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-6.2 border rounded'
                 />
 
                 <p id="pwdnote" className={pwdFocus && !validPwd ? "instructions" : "offscreen"}>
@@ -136,7 +136,7 @@ export const Login = () => {
               </div>
             </form>
 
-            <button className='relative mt-8 -ml-7 h-6 w-21.3 bg-green text-white text-sm rounded'>Login</button>
+            <button className='relative mt-8 -ml-6.5 h-6 w-21.3 bg-green text-white text-sm rounded'>Login</button>
 
             <div>
             <img src={line} alt="" className="absolute mt-2 ml-4 h-0.1 w-12.1" />

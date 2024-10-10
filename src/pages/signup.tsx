@@ -103,7 +103,7 @@ export const Signup = () => {
                 aria-describedby="uidnote"
                 onFocus={() => setUserFocus(true)}
                 onBlur={() => setUserFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-3 border rounded'
                 />
 
                 <p id="uidnote" className={userFocus && user &&
@@ -133,7 +133,7 @@ export const Signup = () => {
                 aria-describedby="uidnote"
                 onFocus={() => setEmailFocus(true)}
                 onBlur={() => setEmailFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-3 border rounded'
                 />
 
                 <p id="uidnote" className={emailFocus && email &&
@@ -164,7 +164,7 @@ export const Signup = () => {
                 aria-describedby="uidnote"
                 onFocus={() => setNumberFocus(true)}
                 onBlur={() => setNumberFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-6.2 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-6.2 pr-3 border rounded'
                 />
                 <h3 className="absolute ml-5.2 mt-8 text-sm text-dark text-left">US</h3>
 
@@ -194,7 +194,7 @@ export const Signup = () => {
                 aria-describedby="pwdnote"
                 onFocus={() => setPwdFocus(true)}
                 onBlur={() => setPwdFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-6.2 border rounded'
                 />
 
                 <p id="pwdnote" className={pwdFocus && !validPwd ? "instructions" : "offscreen"}>
@@ -226,7 +226,7 @@ export const Signup = () => {
                 aria-describedby="confirmnote"
                 onFocus={() => setMatchFocus(true)}
                 onBlur={() => setMatchFocus(false)}
-                className="relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 border rounded"
+                className="relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-6.2 border rounded"
             />
             <p id="confirmnote" className={matchFocus && !validMatch ? "instructions" : "offscreen"}>
                 <FontAwesomeIcon icon={faInfoCircle} />
@@ -247,7 +247,7 @@ export const Signup = () => {
             <button
             disabled={!validName || !validPwd || !validMatch ? true : false}
             type="submit"
-            className='relative mt-9.5 -ml-7 h-6 w-21.3 bg-green text-white text-sm rounded'>
+            className='relative mt-9.5 -ml-6.5 h-6 w-21.3 bg-green text-white text-sm rounded'>
             Create Account
             </button>
 
