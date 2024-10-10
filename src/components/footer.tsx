@@ -10,7 +10,8 @@ import envelope_white from './../assets/icons/envelope_white.png'
 export const Footer = () => {
   const { pathname } = useLocation();
 
-  if (pathname === "/sponsorsignup") return null;
+  if (pathname === "/signup") return null;
+  if (pathname === "/login") return null;
   
     return (
       <div>

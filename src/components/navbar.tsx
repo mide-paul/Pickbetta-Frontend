@@ -21,6 +21,7 @@ export const Navbar = () => {
   const { pathname } = useLocation();
 
   if (pathname === "/signup") return null;
+  if (pathname === "/login") return null;
 
     return (
      <div className="relative">
@@ -38,8 +39,8 @@ export const Navbar = () => {
             <Link to="/faqs"><h3 onClick={() => setOpen(!open)} className="relative text-center text-dark text-base font-normal">FAQs</h3></Link>
             </div>
             <div className="flex flex-col">
-              <button onClick={() => setOpen(!open)} className="relative p-2 w-20.5 ml-0 mt-4 font-bold text-green border rounded">Login</button>
-              <button onClick={() => setOpen(!open)} className="relative p-2 w-20.5 ml-0 mt-4 font-medium text-white bg-green rounded">Start Now!</button>
+              <Link to="/login"><button onClick={() => setOpen(!open)} className="relative p-2 w-20.5 -ml-7 mt-4 font-bold text-green border rounded">Login</button></Link>
+              <Link to="/signup"><button onClick={() => setOpen(!open)} className="relative p-2 w-20.5 -ml-7 mt-4 font-medium text-white bg-green rounded">Start Now!</button></Link>
             </div>
           </div>
         )}

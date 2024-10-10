@@ -27,6 +27,8 @@ import { Pickbettaterms } from "./pages/faqs/pickbettaterms";
 import { Sportbettingterms } from "./pages/faqs/sportbettingterms";
 import { Nflbettingterms } from "./pages/faqs/nflbettingterms";
 import { Sportsbookterms } from "./pages/faqs/sportsbookterms";
+import { Login } from "./pages/login";
+import { Signup } from "./pages/signup";
 
 
 function App() {
@@ -58,6 +60,8 @@ function App() {
             <Route path="/sportbettingterms" element={<Sportbettingterms />} />
             <Route path="/nflbettingterms" element={<Nflbettingterms />} />
             <Route path="/sportsbookterms" element={<Sportsbookterms />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
           </Routes>
           <Footer />
         </Router>
