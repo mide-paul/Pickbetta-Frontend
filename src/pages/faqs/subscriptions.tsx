@@ -62,7 +62,7 @@ const handleClickOutsideDropdownsix =(e:any)=>{
   window.addEventListener("click",handleClickOutsideDropdownsix)
 
     return (
-        <div className="relative h-80 w-full bg-white overflow-hidden">
+        <div className="relative h-78 w-full bg-white overflow-hidden">
             <div>
                 <h3 className="relative text-4xl text-dark font-extrabold mt-11 ml-5 max-w-20 text-center font-montserrat">
                 Frequently Asked Questions (FAQs)
