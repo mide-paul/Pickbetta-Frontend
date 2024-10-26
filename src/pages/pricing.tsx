@@ -41,7 +41,7 @@ export const Pricing = () => {
                     <button className='relative mt-4 text-base text-green font-extrabold h-7 w-19.5 border rounded-xl hover:bg-gray-lighter font-montserrat'>Choose plan</button>
                 </div>
 
-                <div className="relative ml-5 mt-4 h-21 w-20.5 bg-white shadow rounded-xl">
+                <div className="relative ml-5 mt-4 h-22.5 w-20.5 bg-white shadow rounded-xl">
                     <h3 className="relative text-4xl text-dark font-extrabold pt-4 max-w-20 text-center font-montserrat">
                         $30/mth
                     </h3>
