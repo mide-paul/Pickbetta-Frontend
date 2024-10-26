@@ -24,8 +24,8 @@ export const Landingpage = () => {
           <p className="relative mt-3 text-sm text-gray text-center ml-9 max-w-19 font-montserrat">We don’t advise you to pick, we advise you to pickbetta!</p>
         </div>
         <div>
-          <img src={home_image} alt="" className="relative mt-4 ml-5 w-20.5" />
-          <p className="relative text-center text-base text-gray mt-4 ml-6.5 max-w-19.5 font-montserrat">Experience the power of verified data- Try pickbetta free for one week. We’re so
+          <img src={home_image} alt="" className="relative sm:mt-4 sm:ml-8 sm:w-19" />
+          <p className="relative sm:text-center sm:text-base text-gray sm:mt-4 sm:ml-5.2 sm:max-w-20 font-montserrat">Experience the power of verified data- Try pickbetta free for one week. We’re so
             confident in the value that we deliver that we’re giving you the chance to fact-check
             our data yourself. See the difference that accurate, reliable insights can make in your
             betting strategy.
@@ -117,7 +117,7 @@ export const Landingpage = () => {
         <div>
           <h3 className='relative sm:ml-5 sm:mt-7 sm:text-left sm:text-dark sm:text-base font-bold'>The Clients' Testimonials</h3>
           <div className='flex flex-nowrap overflow-scroll scroll-smooth'>
-            <div className='relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow-sm rounded-xl'>
+            <div className='relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl'>
               <div className='flex gap-1'>
               <img src={star} alt="" className="relative sm:pt-5 sm:ml-4" />
               <img src={star} alt="" className="relative sm:pt-5 sm:ml-0" />
@@ -142,7 +142,7 @@ export const Landingpage = () => {
               </div>
             </div>
 
-            <div className='relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow-sm rounded-xl'>
+            <div className='relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl'>
               <div className='flex gap-1'>
               <img src={star} alt="" className="relative sm:pt-5 sm:ml-4" />
               <img src={star} alt="" className="relative sm:pt-5 sm:ml-0" />
@@ -167,7 +167,7 @@ export const Landingpage = () => {
               </div>
             </div>
 
-            <div className='relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow-sm rounded-xl'>
+            <div className='relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl'>
               <div className='flex gap-1'>
               <img src={star} alt="" className="relative sm:pt-5 sm:ml-4" />
               <img src={star} alt="" className="relative sm:pt-5 sm:ml-0" />
