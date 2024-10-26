@@ -22,6 +22,11 @@ export const Navbar = () => {
 
   if (pathname === "/signup") return null;
   if (pathname === "/login") return null;
+  if (pathname === "/homesignedin") return null;
+  if (pathname === "/editornote") return null;
+  if (pathname === "/bettadeepdive") return null;
+  if (pathname === "/nfldeepdive") return null;
+  if (pathname === "/bettadawg") return null;
 
     return (
      <div className="relative">
@@ -34,13 +39,13 @@ export const Navbar = () => {
           <div className="absolute bg-white w-screen h-19.6 mt-8 ml-0 z-10">
             <div className="absolute bg-white -ml-5 h-19.6 w-screen mt-0"></div>
             <div className="flex flex-col gap-4 -ml-7">
-            <h3 onClick={() => setOpen(!open)} className="relative mt-4 text-center text-dark text-base font-normal">Betta Insights</h3>
-            <Link to="/pricing"><h3 onClick={() => setOpen(!open)} className="relative text-center text-dark text-base font-normal">Pricing</h3></Link>
-            <Link to="/faqs"><h3 onClick={() => setOpen(!open)} className="relative text-center text-dark text-base font-normal">FAQs</h3></Link>
+            <h3 onClick={() => setOpen(!open)} className="relative mt-4 text-center text-dark text-base font-normal font-montserrat">Betta Insights</h3>
+            <Link to="/pricing"><h3 onClick={() => setOpen(!open)} className="relative text-center text-dark text-base font-normal font-montserrat">Pricing</h3></Link>
+            <Link to="/faqs"><h3 onClick={() => setOpen(!open)} className="relative text-center text-dark text-base font-normal font-montserrat">FAQs</h3></Link>
             </div>
             <div className="flex flex-col">
-              <Link to="/login"><button onClick={() => setOpen(!open)} className="relative p-2 w-20.5 -ml-7 mt-4 font-bold text-green border rounded">Login</button></Link>
-              <Link to="/signup"><button onClick={() => setOpen(!open)} className="relative p-2 w-20.5 -ml-7 mt-4 font-medium text-white bg-green rounded">Start Now!</button></Link>
+              <Link to="/login"><button onClick={() => setOpen(!open)} className="relative p-2 w-20.5 -ml-7 mt-4 font-bold text-green border rounded font-montserrat">Login</button></Link>
+              <Link to="/signup"><button onClick={() => setOpen(!open)} className="relative p-2 w-20.5 -ml-7 mt-4 font-medium text-white bg-green rounded font-montserrat">Start Now!</button></Link>
             </div>
           </div>
         )}

@@ -3,37 +3,37 @@ export const Privacy = () => {
     return (
         <div className="privacy">
             <div className="relative bg-green-light w-screen h-19.3 mt-3">
-            <h3 className="relative text-5xl text-dark font-extrabold pt-11 ml-0 max-w-26 text-center">Privacy Policy</h3>
-            <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20">
+            <h3 className="relative text-5xl text-dark font-extrabold pt-11 ml-0 max-w-26 text-center font-montserrat">Privacy Policy</h3>
+            <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20 font-montserrat">
                 Version 1.1 | September 2024
             </p>
             </div>
 
             <div className="flex  flex-col mt-4 ml-7 gap-3">
-                <p className="relative text-left text-base text-green max-w-12">
+                <p className="relative text-left text-base text-green max-w-12 font-montserrat">
                 Why Do We Collect Personal Information?
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 What Information Do We Collect?
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 When Do We Disclose/Share Your Information?
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 How Do We Protect Your Personal Information?
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Integrity of Your Personal Information
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Cookies and Other Technologies
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 PickBetta's Commitment to Your Privacy
                 </p>
             </div>
             <div>
-                <p className="relative ml-16 -mt-40.5 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 -mt-40.5 text-left text-base text-dark max-w-13 font-montserrat">
                 PickBetta's privacy policy covers the collection and use of personal information that may
                 be collected by PickBetta anytime you interact with PickBetta, such as when you visit our
                 website, purchase PickBetta products and services, or contact our sales or support associates.
@@ -44,10 +44,10 @@ export const Privacy = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 1. Why Do We Collect Personal Information?
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 We collect personal information because it helps us deliver a superior level of customer
                 service. It enables us to give you convenient access to our products and services and
                 focus on categories of greatest interest to you. In addition, your personal information
@@ -56,10 +56,10 @@ export const Privacy = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 2. What Information Do We Collect?
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 There are several situations in which your personal information can help us provide better
                 service. For example, we may ask for your personal information when you’re discussing a
                 service issue on the phone with an associate, downloading a product, registering your products,
@@ -85,10 +85,10 @@ export const Privacy = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 3. When Do We Disclose/Share Your Information?
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 PickBetta takes your privacy very seriously. Be assured that PickBetta does not sell or rent
                 your contact information to other marketers. To help us provide superior service, your 
                 personal information may be shared with legal entities within the PickBetta group globally, 
@@ -110,10 +110,10 @@ export const Privacy = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 4. How Do We Protect Your Personal Information?
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 PickBetta takes precautions—including administrative, technical, and physical measures—to
                 safeguard your personal information against loss, theft, and misuse, as well as unauthorized
                 access, disclosure, alteration, and destruction. The PickBetta Online Store and website use
@@ -127,10 +127,10 @@ export const Privacy = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 5. Integrity of Your Personal Information
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 PickBetta has safeguards in place to keep your personal information accurate, complete, and
                 up to date for the purposes for which it is used. Naturally, you always have the right to
                 access and correct the personal information you have provided. You can request a copy of
@@ -139,10 +139,10 @@ export const Privacy = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 6. Cookies and Other Technologies
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 As is standard practice on most websites, PickBetta's website may use "cookies" and other
                 technologies to help us understand which parts of our websites are the most popular, where
                 our visitors are going, and how much time they spend there. We also use cookies and other
@@ -171,10 +171,10 @@ export const Privacy = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 7. PickBetta's Commitment to Your Privacy
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 As we said, PickBetta takes protecting your privacy very seriously. To make sure your personal
                 information is secure, we communicate these guidelines to PickBetta employees and strictly
                 enforce privacy safeguards within the company. In addition, PickBetta supports industry

@@ -64,44 +64,44 @@ const handleClickOutsideDropdownsix =(e:any)=>{
     return (
         <div className="relative h-80 w-full bg-white overflow-hidden">
             <div>
-                <h3 className="relative text-4xl text-dark font-extrabold mt-11 ml-5 max-w-20 text-center">
+                <h3 className="relative text-4xl text-dark font-extrabold mt-11 ml-5 max-w-20 text-center font-montserrat">
                 Frequently Asked Questions (FAQs)
                 </h3>
             </div>
 
             <div>
-                <input className="relative text-sm mt-4 pl-6 h-6.3 w-20.5 border rounded" placeholder="Search for questions" />
+                <input className="relative text-sm mt-4 pl-6 h-6.3 w-20.5 border rounded font-montserrat" placeholder="Search for questions" />
                 <img src={search} className='relative -mt-5.2 ml-6 h-4'/>
             </div>
 
             <div className='flex overflow-scroll scroll-smooth text-nowrap'>
-                <Link to="/faqs"><h3 className='relative mt-5 ml-5 text-left text-dark font-medium text-sm'>General Questions</h3></Link>
-                <Link to="/subscriptions"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Subscription & Pricing</h3></Link>
+                <Link to="/faqs"><h3 className='relative mt-5 ml-5 text-left text-dark font-medium text-sm font-montserrat'>General Questions</h3></Link>
+                <Link to="/subscriptions"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>Subscription & Pricing</h3></Link>
                 <div>
-                <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold'>Features & Functionality</h3>
+                <h3 className='relative mt-5 ml-5 text-left text-sm text-green font-extrabold font-montserrat'>Features & Functionality</h3>
                 <img src={line} className='relative mt-2 ml-5 h-1 w-13'/>
                 </div>
-                <Link to="/data"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Data & Analytics</h3></Link>
-                <Link to="/generalnfl"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General NFL Betting Questions</h3></Link>
-                <Link to="/betting"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Betting Types & Strategies</h3></Link>
-                <Link to="/nflbettingrules"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Rules & Terms</h3></Link>
-                <Link to="/nflbettingtips"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Tips & Insight</h3></Link>
-                <Link to="/generalquestions"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>General Responsible Gambling Questions</h3></Link>
-                <Link to="/financialmanagement"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Financial Management & Limits</h3></Link>
-                <Link to="/timemanagement"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Time Management & Self-Control</h3></Link>
-                <Link to="/understandingtheodds"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Understanding the Odds & Managing Expectations</h3></Link>
-                <Link to="/pickbettaterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>PickBetta Terms & Sports Analytics</h3></Link>
-                <Link to="/sportbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Sports Betting Terms</h3></Link>
-                <Link to="/nflbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>NFL Betting Terms & Definitions</h3></Link>
-                <Link to="/sportsbookterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium'>Sportsbook Terms & Definitions</h3></Link>
+                <Link to="/data"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>Data & Analytics</h3></Link>
+                <Link to="/generalnfl"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>General NFL Betting Questions</h3></Link>
+                <Link to="/betting"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>Betting Types & Strategies</h3></Link>
+                <Link to="/nflbettingrules"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>NFL Betting Rules & Terms</h3></Link>
+                <Link to="/nflbettingtips"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>NFL Betting Tips & Insight</h3></Link>
+                <Link to="/generalquestions"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>General Responsible Gambling Questions</h3></Link>
+                <Link to="/financialmanagement"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>Financial Management & Limits</h3></Link>
+                <Link to="/timemanagement"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>Time Management & Self-Control</h3></Link>
+                <Link to="/understandingtheodds"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>Understanding the Odds & Managing Expectations</h3></Link>
+                <Link to="/pickbettaterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>PickBetta Terms & Sports Analytics</h3></Link>
+                <Link to="/sportbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>Sports Betting Terms</h3></Link>
+                <Link to="/nflbettingterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>NFL Betting Terms & Definitions</h3></Link>
+                <Link to="/sportsbookterms"><h3 className='relative mt-5 ml-5 text-left text-sm text-dark font-medium font-montserrat'>Sportsbook Terms & Definitions</h3></Link>
             </div>
 
             <div>
                 <div ref={dropdownRef} className="relative mt-4 ml-5 p-2.5 w-20.4 border rounded">
-                    <h3 onClick={() => setOpen(!open)} className='relative text-sm text-left font-bold'>How often is the data updated on PickBetta?</h3>
+                    <h3 onClick={() => setOpen(!open)} className='relative text-sm text-left font-bold font-montserrat'>How often is the data updated on PickBetta?</h3>
                     <h3 onClick={() => setOpen(!open)} className="absolute ml-19.5 -mt-4.6 font-medium text-xl text-dark">+</h3>
                     { open && (
-                        <p className="relative pt-2 text-sm font-medium text-left">
+                        <p className="relative pt-2 text-sm font-medium text-left font-montserrat">
                             Data is updated in real-time for live games and regularly throughout the day
                             for other sports and betting trends.
                         </p>
@@ -109,10 +109,10 @@ const handleClickOutsideDropdownsix =(e:any)=>{
                 </div>
 
                 <div ref={droptwoRef} className="relative mt-3 ml-5 p-2.5 w-20.4 border rounded">
-                    <h3 onClick={() => setOpentwo(!opentwo)} className='relative text-sm text-left font-bold'>Can I use PickBetta on my mobile device?</h3>
+                    <h3 onClick={() => setOpentwo(!opentwo)} className='relative text-sm text-left font-bold font-montserrat'>Can I use PickBetta on my mobile device?</h3>
                     <h3 onClick={() => setOpentwo(!opentwo)} className="absolute ml-19.5 -mt-4.6 font-medium text-xl text-dark">+</h3>
                     { opentwo && (
-                        <p className="relative pt-2 text-sm font-medium text-left">
+                        <p className="relative pt-2 text-sm font-medium text-left font-montserrat">
                             Yes, PickBetta is mobile-friendly, and you can access all features via our
                             responsive website or mobile app (if available).
                         </p>
@@ -120,10 +120,10 @@ const handleClickOutsideDropdownsix =(e:any)=>{
                 </div>
 
                 <div ref={dropthreeRef} className="relative mt-3 ml-5 p-2.5 w-20.4 border rounded">
-                    <h3 onClick={() => setOpenthree(!openthree)} className='relative text-sm text-left font-bold'>How does the predictive model work on PickBetta?</h3>
+                    <h3 onClick={() => setOpenthree(!openthree)} className='relative text-sm text-left font-bold font-montserrat'>How does the predictive model work on PickBetta?</h3>
                     <h3 onClick={() => setOpenthree(!openthree)} className="absolute ml-19.5 -mt-4.6 font-medium text-xl text-dark">+</h3>
                     { openthree && (
-                        <p className="relative pt-2 text-sm font-medium text-left">
+                        <p className="relative pt-2 text-sm font-medium text-left font-montserrat">
                             Our predictive models use machine learning and advanced analytics to forecast
                             outcomes, based on historical data, team performance, and trends.
                         </p>
@@ -131,10 +131,10 @@ const handleClickOutsideDropdownsix =(e:any)=>{
                 </div>
 
                 <div ref={dropfourRef} className="relative mt-3 ml-5 p-2.5 w-20.4 border rounded">
-                    <h3 onClick={() => setOpenfour(!openfour)} className='relative text-sm text-left font-bold max-w-18'>What is the difference between the Free and Premium chatbox?</h3>
+                    <h3 onClick={() => setOpenfour(!openfour)} className='relative text-sm text-left font-bold max-w-18 font-montserrat'>What is the difference between the Free and Premium chatbox?</h3>
                     <h3 onClick={() => setOpenfour(!openfour)} className="absolute ml-19.5 -mt-4.6 font-medium text-xl text-dark">+</h3>
                     { openfour && (
-                        <p className="relative pt-2 text-sm font-medium text-left">
+                        <p className="relative pt-2 text-sm font-medium text-left font-montserrat">
                             The Free chatbox offers basic sports data and FAQs, while the Premium chatbox
                             provides real-time, personalized insights, and deep analysis.
                         </p>
@@ -142,10 +142,10 @@ const handleClickOutsideDropdownsix =(e:any)=>{
                 </div>
 
                 <div ref={dropfiveRef} className="relative mt-3 ml-5 p-2.5 w-20.4 border rounded">
-                    <h3 onClick={() => setOpenfive(!openfive)} className='relative text-sm text-left font-bold max-w-18'>Can I get notifications for specific trends or games?</h3>
+                    <h3 onClick={() => setOpenfive(!openfive)} className='relative text-sm text-left font-bold max-w-18 font-montserrat'>Can I get notifications for specific trends or games?</h3>
                     <h3 onClick={() => setOpenfive(!openfive)} className="absolute ml-19.5 -mt-5.2 font-medium text-xl text-dark">+</h3>
                     { openfive && (
-                        <p className="relative pt-2 text-sm font-medium text-left">
+                        <p className="relative pt-2 text-sm font-medium text-left font-montserrat">
                             Yes, Premium and VIP users can set up custom alerts for game trends, line
                             movements, or player updates directly from their dashboard.
                         </p>
@@ -156,11 +156,11 @@ const handleClickOutsideDropdownsix =(e:any)=>{
             <div>
                 <div className="relative ml-5 mt-9 h-19.5 w-20.4 bg-green rounded-2xl">
                 <img src={faq_styled} className='absolute mt-0 ml-19.17 h-19.5 rounded-tr-2xl'/>
-                    <h3 className="relative pt-8 ml-4 max-w-16 text-left text-white text-xl font-bold">Get PickBetta for just $10 a week</h3>
-                    <p className="relative pt-3 ml-4 max-w-19.3 text-left text-white text-base font-medium">
+                    <h3 className="relative pt-8 ml-4 max-w-16 text-left text-white text-xl font-bold font-montserrat">Get PickBetta for just $10 a week</h3>
+                    <p className="relative pt-3 ml-4 max-w-19.3 text-left text-white text-base font-medium font-montserrat">
                     Your first week is always free. Start your trial now and see the difference!
                     </p>
-                    <button className="relative p-2 w-13 ml-4 mt-4 float-left font-bold text-green bg-white rounded">Start Now!</button>
+                    <button className="relative p-2 w-13 ml-4 mt-4 float-left font-bold text-green bg-white rounded font-montserrat">Start Now!</button>
                 </div>
             </div>
         </div>

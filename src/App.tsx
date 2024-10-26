@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import './App.css';
 
-import { Home } from './pages/home'
+import { Landingpage } from './pages/landingpage'
 import { Navbar } from './components/navbar'
 import { Footer } from './components/footer'
 import { Aboutus } from './pages/aboutus';
@@ -29,6 +29,11 @@ import { Nflbettingterms } from "./pages/faqs/nflbettingterms";
 import { Sportsbookterms } from "./pages/faqs/sportsbookterms";
 import { Login } from "./pages/login";
 import { Signup } from "./pages/signup";
+import { Homesignedin } from "./pages/homesignedin";
+import { Editornote } from "./pages/editornote";
+import { Bettadeepdive } from "./pages/bettadeepdive";
+import { Nfldeepdive } from "./pages/deepdive/nfldeepdive";
+import { Bettadawg } from "./pages/bettadawg";
 
 
 function App() {
@@ -39,7 +44,7 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Landingpage />} />
             <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
@@ -62,6 +67,11 @@ function App() {
             <Route path="/sportsbookterms" element={<Sportsbookterms />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/homesignedin" element={<Homesignedin />} />
+            <Route path="/editornote" element={<Editornote />} />
+            <Route path="/bettadeepdive" element={<Bettadeepdive />} />
+            <Route path="/nfldeepdive" element={<Nfldeepdive />} />
+            <Route path="/bettadawg" element={<Bettadawg />} />
           </Routes>
           <Footer />
         </Router>

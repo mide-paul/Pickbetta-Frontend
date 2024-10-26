@@ -81,12 +81,12 @@ export const Signup = () => {
 
             <div>
             <Link to="/"><img src={arrow} alt="" className="relative mt-9 ml-4 w-4" /></Link>
-            <h3 className='relative ml-4 mt-4 font-medium text-dark text-left text-base'>Create Account</h3>
+            <h3 className='relative ml-4 mt-4 font-medium text-dark text-left text-base font-montserrat'>Create Account</h3>
             </div>
             
             <form>
             <div className='flex flex-col'>
-                <label htmlFor="username" className='relative ml-4 mt-4 text-sm text-gray text-left'>
+                <label htmlFor="username" className='relative ml-4 mt-4 text-sm text-gray text-left font-montserrat'>
                     Username
                     <FontAwesomeIcon icon={faCheck} className={validName ? "valid" : "hide"} />
                     <FontAwesomeIcon icon={faTimes} className={validName || !user ? "hide" : "invalid"} />
@@ -103,7 +103,7 @@ export const Signup = () => {
                 aria-describedby="uidnote"
                 onFocus={() => setUserFocus(true)}
                 onBlur={() => setUserFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-3 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-3 border rounded font-montserrat'
                 />
 
                 <p id="uidnote" className={userFocus && user &&
@@ -116,7 +116,7 @@ export const Signup = () => {
               </div>
 
               <div className='flex flex-col'>
-                <label htmlFor="email" className='relative ml-4 mt-4 text-sm text-gray text-left'>
+                <label htmlFor="email" className='relative ml-4 mt-4 text-sm text-gray text-left font-montserrat'>
                     Email
                     <FontAwesomeIcon icon={faCheck} className={validEmail ? "valid" : "hide"} />
                     <FontAwesomeIcon icon={faTimes} className={validEmail || !email ? "hide" : "invalid"} />
@@ -133,7 +133,7 @@ export const Signup = () => {
                 aria-describedby="uidnote"
                 onFocus={() => setEmailFocus(true)}
                 onBlur={() => setEmailFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-3 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-3 border rounded font-montserrat'
                 />
 
                 <p id="uidnote" className={emailFocus && email &&
@@ -147,7 +147,7 @@ export const Signup = () => {
               </div>
 
               <div className='flex flex-col'>
-                <label htmlFor="phonenumber" className='relative ml-4 mt-4 text-sm text-gray text-left'>
+                <label htmlFor="phonenumber" className='relative ml-4 mt-4 text-sm text-gray text-left font-montserrat'>
                     Phone Number
                     <FontAwesomeIcon icon={faCheck} className={validNumber ? "valid" : "hide"} />
                     <FontAwesomeIcon icon={faTimes} className={validNumber || !number ? "hide" : "invalid"} />
@@ -164,9 +164,9 @@ export const Signup = () => {
                 aria-describedby="uidnote"
                 onFocus={() => setNumberFocus(true)}
                 onBlur={() => setNumberFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-6.2 pr-3 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-6.2 pr-3 border rounded font-montserrat'
                 />
-                <h3 className="absolute ml-5.2 mt-8 text-sm text-dark text-left">US</h3>
+                <h3 className="absolute ml-5.2 mt-8 text-sm text-dark text-left font-montserrat">US</h3>
 
                 <p id="uidnote" className={numberFocus && number &&
                 !validNumber ? "instructions" : "offscreen"}>
@@ -178,7 +178,7 @@ export const Signup = () => {
               </div>
 
               <div className='flex flex-col'>
-                <label htmlFor="password" className='relative ml-4 mt-4 text-sm text-gray text-left'>
+                <label htmlFor="password" className='relative ml-4 mt-4 text-sm text-gray text-left font-montserrat'>
                     Password
                     <FontAwesomeIcon icon={faCheck} className={validPwd ? "valid" : "hide"} />
                     <FontAwesomeIcon icon={faTimes} className={validPwd || !pwd ? "hide" : "invalid"} />
@@ -194,7 +194,7 @@ export const Signup = () => {
                 aria-describedby="pwdnote"
                 onFocus={() => setPwdFocus(true)}
                 onBlur={() => setPwdFocus(false)}
-                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-6.2 border rounded'
+                className='relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-6.2 border rounded font-montserrat'
                 />
 
                 <p id="pwdnote" className={pwdFocus && !validPwd ? "instructions" : "offscreen"}>
@@ -210,7 +210,7 @@ export const Signup = () => {
               </div>
 
               <div className='flex flex-col'>
-              <label htmlFor="confirm_pwd" className="relative ml-4 mt-4 text-sm text-gray text-left">
+              <label htmlFor="confirm_pwd" className="relative ml-4 mt-4 text-sm text-gray text-left font-montserrat">
                 Confirm Password
                 <FontAwesomeIcon icon={faCheck} className={validMatch && matchPwd ? "valid" : "hide"} />
                 <FontAwesomeIcon icon={faTimes} className={validMatch || !matchPwd ? "hide" : "invalid"} />
@@ -226,7 +226,7 @@ export const Signup = () => {
                 aria-describedby="confirmnote"
                 onFocus={() => setMatchFocus(true)}
                 onBlur={() => setMatchFocus(false)}
-                className="relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-6.2 border rounded"
+                className="relative ml-4 mt-2 h-6 w-21.3 text-sm pl-3 pr-6.2 border rounded font-montserrat"
             />
             <p id="confirmnote" className={matchFocus && !validMatch ? "instructions" : "offscreen"}>
                 <FontAwesomeIcon icon={faInfoCircle} />
@@ -239,7 +239,7 @@ export const Signup = () => {
 
               <div>
                 <input type='radio' className='relative ml-4 mt-6 float-left' />
-                <h3 className='absolute ml-6.2 mt-4 text-sm text-dark text-left max-w-18'>I agree to the
+                <h3 className='absolute ml-6.2 mt-4 text-sm text-dark text-left max-w-18 font-montserrat'>I agree to the
                     <span className='text-green font-semibold underline'> Terms & Conditions</span> and <span className='text-green font-semibold underline'>Privacy Policy</span></h3>
               </div>
             </form>
@@ -247,12 +247,12 @@ export const Signup = () => {
             <button
             disabled={!validName || !validPwd || !validMatch ? true : false}
             type="submit"
-            className='relative mt-9.5 -ml-6.5 h-6 w-21.3 bg-green text-white text-sm rounded'>
+            className='relative mt-9.5 -ml-6.5 h-6 w-21.3 bg-green text-white text-sm rounded font-montserrat'>
             Create Account
             </button>
 
             <div>
-                <h3 className='relative mt-4 text-dark text-sm'>Already have an account?
+                <h3 className='relative mt-4 text-dark text-sm font-montserrat'>Already have an account?
                     <span className='text-green font-semibold cursor-pointer'>
                     <Link to="/login"> Login</Link></span>
                 </h3>

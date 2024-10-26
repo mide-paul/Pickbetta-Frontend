@@ -3,40 +3,40 @@ export const Terms = () => {
     return (
         <div className="terms">
             <div className="relative bg-green-light w-screen h-19.3 mt-3">
-            <h3 className="relative text-5xl text-dark font-extrabold pt-11 ml-5 max-w-20 text-center">Terms & Conditions</h3>
-            <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20">
+            <h3 className="relative text-5xl text-dark font-extrabold pt-11 ml-5 max-w-20 text-center font-montserrat">Terms & Conditions</h3>
+            <p className="relative text-center text-base text-gray mt-4 ml-5 max-w-20 font-montserrat">
                 Version 1.1 | September 2024
             </p>
             </div>
 
             <div className="flex  flex-col mt-4 ml-7 gap-3">
-                <p className="relative text-left text-base text-green max-w-12">
+                <p className="relative text-left text-base text-green max-w-12 font-montserrat">
                 Nature of Products / Limitation of Liability
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Use / Copyright
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Account Registrations and Security
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Payment/Fees and Subscription Renewal
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Disclosure and Removal of Information
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Consent to Electronic Communications and Solicitation
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Modifications to the Terms and Conditions
                 </p>
-                <p className="relative text-left text-base text-dark max-w-12">
+                <p className="relative text-left text-base text-dark max-w-12 font-montserrat">
                 Entire Agreement
                 </p>
             </div>
             <div>
-                <p className="relative ml-16 -mt-40.5 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 -mt-42 text-left text-base text-dark max-w-13 font-montserrat">
                 PickBetta is a service provided by [Company Name], a subsidiary of [Parent Company Name], and
                 PickBetta (“PickBetta”). By using the PickBetta site and any of our features, services, or
                 products, you agree to all our terms and conditions as outlined below (the “Agreement”). If
@@ -53,10 +53,10 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 1. Nature of Products / Limitation of Liability
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 ALL PRODUCTS (AS DEFINED ABOVE) AND SERVICES (AS DEFINED ABOVE) ARE PROVIDED “AS-IS.” WE DO
                 NOT PROVIDE ANY EXPRESS OR IMPLIED WARRANTIES OF MERCHANTABILITY, SUITABILITY, OR
                 COMPLETENESS FOR ANY OF THE PRODUCTS OR SERVICES FOR YOUR PARTICULAR NEEDS. THE PRODUCTS AND
@@ -74,10 +74,10 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 2. Use / Copyright
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 The Products are for private use only (or for use on behalf of one client) and cannot be
                 resold or distributed without our written consent.
                 Most of the Products are copyrighted by us. However, some Products may be based on public
@@ -85,10 +85,10 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 <span className="text-3xl -pb-2">.</span> Product Use Outside of Defined Area
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 We make no representations and give no warranties, express or implied, that making the
                 Products available in any particular jurisdiction outside the United States, U.K., Canada,
                 and Australia is permitted under such jurisdiction’s applicable laws or regulations.
@@ -105,10 +105,10 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 <span className="text-3xl -pb-2">.</span> No Unlawful or Prohibited Use
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 You agree not to use the Website, its Products, and/or its Services for any unlawful
                 purpose or as prohibited by our terms, conditions, and notices set forth in this Agreement
                 and elsewhere on the Website. You also agree that when using the Website, its Products,
@@ -142,7 +142,7 @@ export const Terms = () => {
                 13. Send, receive, or download messages or materials that are
                 inappropriate or violate the intellectual property rights of PickBetta or others.
                 </p>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 All judgments concerning the applicability of these guidelines shall be at the sole and
                 exclusive discretion of PickBetta. PickBetta reserves the right, in its sole discretion,
                 to determine whether and what action to take in response to any violation. Any action or
@@ -151,10 +151,10 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 3. Account Registrations and Security
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 Access to some of the Services, such as the Subscription Service, requires registration and
                 the payment of a fee. In order to register, you agree to provide us with accurate and
                 up-to-date information. You also represent that you have the legal right to use the email
@@ -168,29 +168,29 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 4. Payment/Fees and Subscription Renewal
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 We reserve the right to change the Subscription Service’s fees or applicable charges and
                 to institute new charges at any time.
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 <span className="text-3xl -pb-2">.</span> Account Cancellation
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 If your account is paid in full, you may cancel your account and terminate this Agreement.
                 We recommend exporting or saving any important documents and data because you will lose
                 access to all content stored in your account after cancellation.
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 <span className="text-3xl -pb-2">.</span> Termination and Access Restriction
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 The rights granted by PickBetta to use the Subscription Services are predicated upon a
                 user’s: a) acknowledgment and acceptance of these Terms and Conditions of Use; b) payment
                 for the access granted; and c) not sharing the access granted with any other person or entity.
@@ -208,20 +208,20 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 <span className="text-3xl -pb-2">.</span> Refund of Charges
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 Except as specifically set forth in this section, all Subscription Services are prepaid.
                 To cancel a current subscription and request a refund for the unused portion, call [Phone
                 Number].
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 5. Disclosure and Removal of Information
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 We will not disclose any of your personal information to third parties without your
                 permission except in the following circumstances:,<br />
                 i) to protect ourselves from liability;<br/>
@@ -230,10 +230,10 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 6. Consent to Electronic Communications and Solicitation
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 By registering with PickBetta, you understand that we may send you communications from
                 PickBetta including but not limited to:<br/>
                 i) notices about your use of the Services, including
@@ -246,10 +246,10 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 7. Third-Party Content, Sites, and Services
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 The Website may contain links to other Internet sites, resources, and/or sponsors of the
                 Website. We do not verify, warrant, endorse, or take responsibility for the availability,
                 accuracy, completeness, or quality of the content contained in these outside sites.
@@ -263,20 +263,20 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-base text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-base text-dark max-w-13 font-montserrat">
                 <span className="text-3xl -pb-2">.</span> Assignment
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 Except as specifically set forth in this section, all Subscription Services are prepaid.
                 To cancel a current subscription and request a refund for the unused portion, call [Phone
                 Number].
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 8. Modifications to the Terms and Conditions
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 We may alter these Terms and Conditions of Use from time to time and post the new version
                 on our Website, following which all use of the Website, Services, and Products will be
                 governed by that version. You must check the Terms and Conditions of Use on the Website
@@ -284,10 +284,10 @@ export const Terms = () => {
                 </p>
             </div>
             <div>
-                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13">
+                <h3 className="relative ml-16 mt-5 font-bold text-left text-xl text-dark max-w-13 font-montserrat">
                 9. Entire Agreement
                 </h3>
-                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13">
+                <p className="relative ml-16 mt-4 text-left text-base text-dark max-w-13 font-montserrat">
                 These Terms and Conditions of Use, together with our Privacy Policy, any product
                 disclaimers, and any payment method instructions, if any, constitute the entire agreement
                 between you and us. You acknowledge that you have not entered into this agreement in
