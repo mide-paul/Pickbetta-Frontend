@@ -15,7 +15,7 @@ export const Landingpage = () => {
     return (
       <div className="home">
         <div>
-          <h3 className="relative sm:text-center text-4xl text-dark font-extrabold font-montserrat mt-11 ml-5 max-w-20  xl:text-6xl xl:max-w-45 xl:text-left xl:leading-20">
+          <h3 className="relative sm:text-center text-4xl text-dark font-extrabold font-montserrat sm:mt-11 sm:ml-5 sm:max-w-20 xl:ml-10  xl:text-6xl xl:max-w-45 xl:text-left xl:leading-20">
             Your ultimate source for{" "}
             <span className="sm:italic sm:text-green-deep sm:underline xl:font-medium">
               {" "}
@@ -29,7 +29,7 @@ export const Landingpage = () => {
         </div>
 
         <div>
-          <p className="relative  mt-3 text-sm text-gray text-center ml-9 max-w-19 font-montserrat xl:text-base xl:max-w-30 xl:text-left xl:ml-1 xl:text-green-deep ">
+          <p className="relative  mt-3 text-sm text-gray text-center ml-9 max-w-19 font-montserrat xl:text-base xl:max-w-30 xl:text-left xl:ml-8 xl:text-green-deep ">
             We don’t advise you to pick, we advise you to pickbetta!
           </p>
         </div>
@@ -37,29 +37,29 @@ export const Landingpage = () => {
           <img
             src={home_image}
             alt=""
-            className="relative sm:mt-4 sm:ml-8 sm:w-19 xl:ml-50 xl:-mt-19.2 xl:w-31 xl:h-35"
+            className="relative sm:mt-4 sm:ml-8 sm:w-19 xl:ml-55 xl:-mt-19.2 xl:w-31 xl:h-35"
           />
-          <p className="relative sm:text-center sm:text-base sm:text-gray sm:mt-4 sm:ml-5.2 sm:max-w-20 font-montserrat xl:text-left xl:text-base xl:-mt-19.3 xl:max-w-39.5 xl:text-dark-gray xl:leading-20">
+          <p className="relative sm:text-center sm:text-base sm:text-gray sm:mt-4 sm:ml-5.2 sm:max-w-20 font-montserrat xl:text-left xl:text-base xl:ml-10 xl:-mt-19.3 xl:max-w-39.5 xl:text-dark-gray xl:leading-20">
             Experience the power of verified data- Try pickbetta free for one
             week. We’re so confident in the value that we deliver that we’re
             giving you the chance to fact-check our data yourself. See the
             difference that accurate, reliable insights can make in your betting
             strategy.
           </p>
-          <p className="relative sm:mt-3 ml-5.2 sm:text-dark sm:text-base sm:font-bold sm:max-w-20 sm:font-montserrat xl:text-left xl:max-w-39.5">
+          <p className="relative sm:mt-3 ml-5.2 sm:text-dark sm:text-base sm:font-bold sm:max-w-20 sm:font-montserrat xl:text-left xl:ml-10 xl:max-w-39.5">
             Try PickBetta free for a week—just $10 a week after. Start winning
             smarter today!
           </p>
-          <button className="relative sm:h-7 sm:w-20 sm:-ml-0.4 sm:bg-green-deep rounded sm:text-white sm:mt-4 font-montserrat xl:float-left xl:ml-5.2 xl:w-15 xl:mt-5">
+          <button className="relative sm:h-7 sm:w-20 sm:-ml-0.4 sm:bg-green-deep rounded sm:text-white sm:mt-4 font-montserrat xl:float-left xl:ml-10 xl:w-15 xl:mt-5">
             Start now!
           </button>
         </div>
 
         <div>
-          <h3 className="relative sm:ml-5.2 sm:mt-8 sm:text-xl sm:font-extrabold sm:text-left font-montserrat  xl:text-right xl:text-dark-gray-900 xl:text-5xl xl:mt-20 xl:mr-18">
+          <h3 className="relative sm:ml-5.2 sm:mt-8 sm:text-xl sm:font-extrabold sm:text-left font-montserrat  xl:text-right xl:text-dark-gray-900 xl:text-5xl xl:mt-20 xl:mr-21">
             Who We Are
           </h3>
-          <p className="relative sm:mt-4 sm:ml-5.2 sm:text-base sm:text-gray sm:text-left sm:max-w-19.5 sm:font-montserrat xl:text-left xl:mt-2 xl:ml-55 xl:max-w-37.5">
+          <p className="relative sm:mt-4 sm:ml-5.2 sm:text-base sm:text-gray sm:text-left sm:max-w-19.5 sm:font-montserrat xl:text-left xl:mt-2 xl:ml-49 xl:max-w-37.5">
             We are sports bettors, just like you. After decades of placing bets,
             scrolling countless sites for reliable information, and dealing with
             the frustrations of biased picks and unreliable data, we knew there
@@ -71,7 +71,7 @@ export const Landingpage = () => {
           <img
             src={home_image2}
             alt=""
-            className="relative sm:mt-4 sm:ml-5 sm:w-20.5 xl:ml-10 xl:-mt-20 xl:w-35"
+            className="relative sm:mt-4 sm:ml-5 sm:w-20.5 xl:ml-12 xl:-mt-20 xl:w-35"
           />
         </div>
 
@@ -98,11 +98,11 @@ export const Landingpage = () => {
         <div>
           <h3
             className="relative sm:ml-5 sm:mt-8 sm:text-xl sm:font-extrabold sm:text-left font-montserrat
-          xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-15 xl:mr-18"
+          xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-15"
           >
             What Do We Offer
           </h3>
-          <p className="relative sm:mt-4 sm:ml-5 sm:text-base sm:text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:text-center xl:max-w-72 xl:ml-10">
+          <p className="relative sm:mt-4 sm:ml-5 sm:text-base sm:text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:text-center xl:max-w-72 xl:ml-13">
             PickBetta is your go-to source for trustworthy sports betting data.
             With nearly a century of sports data at your fingertips, our
             platform provides:
@@ -114,14 +114,14 @@ export const Landingpage = () => {
             <img
               src={presentation}
               alt=""
-              className="relative sm:pt-6 sm:ml-4 xl:w-8"
+              className="relative sm:pt-6 sm:ml-4 xl:w-8 xl:ml-12"
             />
-            <h3 className="relative ml-5 mt-4 text-xl font-extrabold text-left font-montserrat">
+            <h3 className="relative sm:ml-5 sm:mt-4 text-xl font-extrabold text-left font-montserrat xl:ml-12">
               Fact-Checked Insights
             </h3>
             <p
               className="relative mt-3 ml-5 sm:text-base sm:text-gray sm:text-left sm:max-w-19 font-montserrat
-            xl:text-gray"
+            xl:text-gray xl:ml-12"
             >
               Every stat, trend, and piece of data is rigorously verified to
               ensure accuracy.
@@ -130,7 +130,7 @@ export const Landingpage = () => {
         </div>
 
         <div>
-          <div className="relative sm:ml-5 sm:mt-6 sm:bg-gray-lighter sm:h-17 sm:w-20.5 sm:rounded-xl xl:ml-30 xl:-mt-17 xl:bg-white">
+          <div className="relative sm:ml-5 sm:mt-6 sm:bg-gray-lighter sm:h-17 sm:w-20.5 sm:rounded-xl xl:ml-35 xl:-mt-17 xl:bg-white">
             <img
               src={presentation}
               alt=""
@@ -147,7 +147,7 @@ export const Landingpage = () => {
         </div>
 
         <div>
-          <div className="relative sm:ml-5 sm:mt-6 sm:bg-gray-lighter sm:h-19.2 sm:w-20.5 sm:rounded-xl xl:ml-60 xl:-mt-17 xl:bg-white">
+          <div className="relative sm:ml-5 sm:mt-6 sm:bg-gray-lighter sm:h-19.2 sm:w-20.5 sm:rounded-xl xl:ml-64 xl:-mt-17 xl:bg-white">
             <img src={analysis} alt="" className="relative pt-6 ml-4 xl:w-8" />
             <h3 className="relative ml-5 mt-4 text-xl font-extrabold text-left font-montserrat">
               Comprehensive Coverage
@@ -162,7 +162,7 @@ export const Landingpage = () => {
         <div>
           <h3
             className="relative sm:mt-8 sm:ml-5 sm:text-2xl sm:font-extrabold sm:text-left sm:font-montserrat 
-          xl:text-right xl:text-dark-gray-900 xl:text-3xl xl:mt-15 xl:mr-27"
+          xl:text-right xl:text-dark-gray-900 xl:text-3xl xl:mt-15 xl:mr-27.5"
           >
             How We Deliver Value
           </h3>
@@ -193,12 +193,12 @@ export const Landingpage = () => {
         <div>
           <h3
             className="relative sm:ml-5 sm:mt-7 sm:text-left sm:text-dark sm:text-base font-bold
-          xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-15 xl:mr-18"
+          xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-15"
           >
             The Clients' Testimonials
           </h3>
           <div className="flex flex-nowrap overflow-scroll scroll-smooth">
-            <div className="relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl">
+            <div className="relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl xl:ml-11.7 xl:min-w-24">
               <div className="flex gap-1">
                 <img src={star} alt="" className="relative sm:pt-5 sm:ml-4" />
                 <img src={star} alt="" className="relative sm:pt-5 sm:ml-0" />
@@ -228,7 +228,7 @@ export const Landingpage = () => {
               </div>
             </div>
 
-            <div className="relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl">
+            <div className="relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl xl:min-w-24">
               <div className="flex gap-1">
                 <img src={star} alt="" className="relative sm:pt-5 sm:ml-4" />
                 <img src={star} alt="" className="relative sm:pt-5 sm:ml-0" />
@@ -258,7 +258,7 @@ export const Landingpage = () => {
               </div>
             </div>
 
-            <div className="relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl">
+            <div className="relative sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl xl:min-w-24">
               <div className="flex gap-1">
                 <img src={star} alt="" className="relative sm:pt-5 sm:ml-4" />
                 <img src={star} alt="" className="relative sm:pt-5 sm:ml-0" />
@@ -291,19 +291,19 @@ export const Landingpage = () => {
         </div>
 
         <div>
-          <div className="relative ml-5 mt-9 h-19.5 w-20.4 bg-green rounded-2xl">
+          <div className="relative sm:ml-5 sm:mt-9 sm:h-19.5 sm:w-20.4 bg-green sm:rounded-2xl xl:ml-9 xl:mt-9 xl:h-19.5 xl:w-80 xl:rounded-3xl">
             <img
               src={faq_styled}
-              className="absolute mt-0 ml-19.17 h-19.5 rounded-tr-2xl"
+              className="absolute sm:mt-0 sm:ml-19.17 sm:h-19.5 sm:rounded-tr-2xl xl:ml-66.2 xl:w-17 xl:rounded-tr-3xl xl:rounded-br-3xl"
             />
-            <h3 className="relative pt-8 ml-4 max-w-16 text-left text-white text-xl font-bold font-montserrat">
+            <h3 className="relative sm:pt-8 sm:ml-4 sm:max-w-16 text-left text-white sm:text-xl font-bold font-montserrat xl:text-5xl xl:pt-8 xl:ml-10 xl:max-w-55">
               Get PickBetta for just $10 a week
             </h3>
-            <p className="relative pt-3 ml-4 max-w-19.3 text-left text-white text-base font-medium font-montserrat">
+            <p className="relative sm:pt-3 sm:ml-4 sm:max-w-19.3 text-left text-white sm:text-base font-medium font-montserrat xl:pt-3 xl:ml-10 xl:max-w-50 xl:text-xl">
               Your first week is always free. Start your trial now and see the
               difference!
             </p>
-            <button className="relative p-2 w-13 ml-4 mt-4 float-left font-bold text-green bg-white rounded font-montserrat">
+            <button className="relative sm:p-2 sm:w-13 sm:ml-4 sm:mt-4 float-left font-bold text-green bg-white rounded font-montserrat xl:p-2 xl:w-17 xl:ml-10 xl:mt-4">
               Start Now!
             </button>
           </div>
