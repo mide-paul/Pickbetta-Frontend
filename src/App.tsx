@@ -34,6 +34,7 @@ import { Editornote } from "./pages/editornote";
 import { Bettadeepdive } from "./pages/bettadeepdive";
 import { Nfldeepdive } from "./pages/deepdive/nfldeepdive";
 import { Bettadawg } from "./pages/bettadawg";
+import ScrollToTop from "./components/scrolltotop";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
 
       <div className="App">
         <Router>
+        <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Landingpage />} />

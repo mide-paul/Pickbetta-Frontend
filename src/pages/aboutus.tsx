@@ -1,11 +1,17 @@
-import aboutus_image from './../assets/images/aboutus_image.png'
+import aboutus_image from './../assets/images/aboutus_image.svg'
 import faq_styled from  './../assets/images/faq_styled.png'
+import amanda from  './../assets/images/amanda.svg'
+import facebook from './../assets/icons/facebook.svg';
+import message from './../assets/icons/message.svg';
+import instagram from './../assets/icons/instagram.svg';
+import youtube from './../assets/icons/youtube.svg';
+import fisher from  './../assets/images/fisher.png'
 
 export const Aboutus = () => {
   return (
     <div className="about">
       <div>
-        <h3 className="relative sm:text-5xl sm:text-dark sm:font-extrabold sm:mt-11 sm:ml-0 sm:max-w-26 sm:text-center font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-15 xl:ml-32 xl:font-g xl:max-w-28">
+        <h3 className="relative sm:text-5xl sm:text-dark sm:font-extrabold sm:mt-11 sm:ml-0 sm:max-w-26 sm:text-center font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-11 xl:ml-32 xl:font-g xl:max-w-28">
           About Us
         </h3>
         <p
@@ -17,9 +23,9 @@ export const Aboutus = () => {
         <img
           src={aboutus_image}
           alt=""
-          className="relative sm:mt-4 sm:ml-5 sm:w-20.5 xl:ml-33  xl:w-25 xl:mt-10"
+          className="relative sm:h-15 sm:mt-6 sm:ml-5 sm:w-20.5 xl:ml-33 xl:w-25 xl:mt-12.5"
         />
-        <p className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:text-center xl:max-w-66.4 xl:ml-16 xl:mt-8">
+        <p className="relative sm:mt-6 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:text-center xl:max-w-66.4 xl:ml-16 xl:-mt-19.5">
           For over 40 years, I’ve been where you are—deep in the trenches of
           sports betting, constantly searching for that edge. Like so many
           bettors, I fell into the trap of paying thousands to so-called
@@ -30,7 +36,7 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl sm:font-extrabold sm:text-left font-montserrat xl:ml-35 xl:mt-10">
+        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl sm:font-extrabold sm:text-left font-montserrat xl:ml-35 xl:mt-19.5">
           The Pain of Paying for Picks
         </h3>
         <p
@@ -214,7 +220,7 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-4xl xl:mt-10 xl:ml-10 xl:font-g xl:max-w-14 ">
+        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-4xl xl:mt-10 xl:ml-12 xl:font-g xl:max-w-14 ">
           Mission
         </h3>
         <p className="relative sm:ml-5 sm:mt-6 text-gray sm:text-xl sm:font-normal sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:max-w-42 xl:-mt-7">
@@ -304,7 +310,7 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:text-left xl:text-dark-gray-900 xl:text-4xl xl:mt-10 xl:ml-10 xl:font-g xl:max-w-20">
+        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:text-left xl:text-dark-gray-900 xl:text-4xl xl:mt-10 xl:ml-12 xl:font-g xl:max-w-20">
           Unique Value Proposition (UVP):
         </h3>
         <p className="relative sm:ml-5 sm:mt-3 text-gray sm:text-xl sm:font-normal sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:max-w-42 xl:-mt-13 xl:text-dark-gray-900 xl:font-extrabold">
@@ -331,6 +337,171 @@ export const Aboutus = () => {
           From personalized dashboards to real-time alerts, PickBetta offers a
           betting experience that’s as unique as you are.
         </p>
+      </div>
+
+      <div>
+        <div>
+          <h3 className='relative sm:ml-5 sm:text-dark sm:mt-5 sm:text-xl sm:text-left font-bold xl:text-dark xl:mt-12 xl:text-3xl xl:text-center'>
+            Meet the Team
+          </h3>
+          <p className='relative sm:ml-5 sm:mt-5 sm:text-gray sm:text-base sm:text-left sm:max-w-19.4 font-medium xl:mt-5 xl:ml-19.1 xl:text-gray xl:text-base xl:text-center xl:max-w-60'>
+          Just take a look - each member of the team is watching your every gesture and will hear your every whisper.
+          </p>
+        </div>
+
+        <div className='sm:flex sm:flex-col xl:flex-row xl:flex-wrap'>
+          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7'>
+          <img
+            src={amanda}
+            className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
+          />
+          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
+          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
+          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
+          There are many variations of passages of Lorem Ipsum available
+          </p>
+
+            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            </div>
+          </div>
+
+          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7'>
+          <img
+            src={fisher}
+            className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
+          />
+          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
+          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
+          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
+          There are many variations of passages of Lorem Ipsum available
+          </p>
+
+            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            </div>
+          </div>
+
+          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7'>
+          <img
+            src={amanda}
+            className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
+          />
+          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
+          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
+          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
+          There are many variations of passages of Lorem Ipsum available
+          </p>
+
+            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            </div>
+          </div>
+
+          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7'>
+          <img
+            src={fisher}
+            className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
+          />
+          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
+          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
+          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
+          There are many variations of passages of Lorem Ipsum available
+          </p>
+
+            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            </div>
+          </div>
+
+          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:ml-10 xl:mt-8'>
+          <img
+            src={amanda}
+            className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
+          />
+          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
+          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
+          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
+          There are many variations of passages of Lorem Ipsum available
+          </p>
+
+           <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            </div>
+          </div>
+
+          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8'>
+          <img
+            src={fisher}
+            className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
+          />
+          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
+          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
+          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
+          There are many variations of passages of Lorem Ipsum available
+          </p>
+
+            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            </div>
+          </div>
+
+          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8'>
+          <img
+            src={amanda}
+            className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
+          />
+          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
+          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
+          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
+          There are many variations of passages of Lorem Ipsum available
+          </p>
+
+            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            </div>
+          </div>
+
+          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8'>
+          <img
+            src={fisher}
+            className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
+          />
+          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
+          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
+          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
+          There are many variations of passages of Lorem Ipsum available
+          </p>
+
+            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div>
