@@ -45,6 +45,8 @@ export default {
       mono: ["ui-monospace", "SFMono-Regular"],
       display: ["Oswald"],
       body: ['"Open Sans"'],
+      
+
     },
     fontSize: {
       xs: "0.5rem",
