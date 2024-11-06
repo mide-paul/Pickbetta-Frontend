@@ -37,6 +37,8 @@ export default {
       "gray-white": "#FCFCFD",
       "dark-gray": "#344054",
       "dark-gray-900": "#101828"
+      
+
     },
     fontFamily: {
       montserrat: ["Montserrat"],
@@ -55,11 +57,13 @@ export default {
       base: "1rem",
       x: "1.15rem",
       xl: "1.25rem",
+      "1xl":"1.28rem",
       "2xl": "1.563rem",
       "3xl": "1.953rem",
       "4xl": "2.441rem",
       "5xl": "3.052rem",
       "6xl": "3.501rem",
+      "7xl": "4.285rem",
     },
     spacing: {
       "0.1": "1px",
@@ -266,11 +270,15 @@ export default {
         "50": "50rem",
         "51": "51rem",
         "52": "52rem",
+        "53": "53rem",
         "54": "54rem",
         "55": "55rem",
         "57": "56.5rem",
+        "58": "58rem",
+        "59": "59rem",
         "59.2": "59.2rem",
         "60": "60rem",
+        "61": "61rem",
         "62": "62rem",
         "63": "63rem",
         "64": "64rem",

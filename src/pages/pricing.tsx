@@ -117,7 +117,7 @@ export const Pricing = () => {
             </div>
           </div>
 
-          <div>
+          <div> 
             <div className="relative sm:ml-5 sm:mt-9 sm:h-19.5 sm:w-20.4 bg-green sm:rounded-2xl xl:ml-9 xl:mt-9 xl:h-19.5 xl:w-80 xl:rounded-3xl">
               <img
                 src={faq_styled}

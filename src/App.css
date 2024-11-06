@@ -151,4 +151,14 @@ body {
     width: 100%;
   }
 
+  .privacy{
+    height: 5700px;
+    width: 100%;
+  }
+
+  .terms {
+    height: 7980px;
+    width: 100%;
+  }
+
 }
