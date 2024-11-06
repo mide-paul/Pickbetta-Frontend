@@ -2,7 +2,7 @@ import faq_styled from "./../assets/images/faq_styled.png";
 export const Terms = () => {
   return (
     <div className="terms">
-      <div className="relative bg-green-light w-screen h-19.3 mt-3">
+      <div className="relative bg-green-light w-screen sm:h-19.3 sm:mt-3 xl:-mt-8">
         <h3 className="relative sm:text-5xl sm:text-dark sm:font-extrabold sm:pt-11 sm:ml-5 sm:max-w-20 sm:text-center font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-8 xl:pt-7 xl:ml-32 xl:font-g xl:max-w-32">
           Terms & Conditions
         </h3>
@@ -11,10 +11,10 @@ export const Terms = () => {
         </p>
       </div>
 
-      <div className="flex  sm:flex-col sm:mt-4 sm:ml-7 sm:gap-3 xl:leading-7 ">
+      <div className="flex  sm:flex-col sm:mt-4 sm:ml-7 sm:gap-3 xl:leading-7 xl:mt-13 xl:h-32 xl:w-24 xl:bg-green-light">
         <p
-          className="relative sm:text-left sm:text-base sm:text-green sm:max-w-12 font-montserrat
-          xl:mt-10 xl:ml-6 xl:max-w-20 xl:text-green-deep "
+          className="relative sm:mt-10 sm:text-left sm:text-base sm:text-green sm:max-w-12 font-montserrat
+          xl:mt-6.5 xl:ml-6 xl:max-w-20 xl:text-green-deep xl:font-bold"
         >
           Nature of Products / Limitation of Liability
         </p>
@@ -61,8 +61,10 @@ export const Terms = () => {
           Entire Agreement
         </p>
       </div>
+
       <div>
-        <p className="relative sm:ml-16 sm:-mt-42 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:-mt-23 xl:text-1xl xl:text-gray-light xl:max-w-70">
+        <h3 className="relative sm:ml-16 sm:-mt-46.5 sm:font-bold sm:text-left xl:text-xl xl:-mt-32 xl:mr-44.5 xl:text-right">Our Terms & Conditions</h3>
+        <p className="relative sm:ml-16 sm:mt-5 sm:text-left sm:text-base sm:text-dark sm:max-w-13 font-montserrat xl:ml-30 xl:mt-5 xl:text-1xl xl:text-gray-light xl:max-w-70">
           <p className="relative">
             PickBetta is a service provided by [Company Name], a subsidiary of
             [Parent Company Name], and PickBetta (“PickBetta”). By using the

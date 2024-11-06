@@ -54,7 +54,7 @@ export const Navbar = () => {
           </div>
         </div>
 
-        <div className="relative sm-hidden">
+        <div className="relative sm-hidden xl:bg-green-light xl:w-full xl:h-12.2">
         <img src={logo} alt="" className="absolute xl:h-5 xl:mt-7 xl:ml-10 xl:z-10" />
         <div className="flex xl:gap-7 xl:float-right xl:mr-10.5 xl:mt-7">
           <Link to="/aboutus"><h3 className="relative xl:text-left">About Us</h3></Link>
