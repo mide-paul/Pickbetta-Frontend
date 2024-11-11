@@ -35,6 +35,7 @@ import { Bettadeepdive } from "./pages/bettadeepdive";
 import { Nfldeepdive } from "./pages/deepdive/nfldeepdive";
 import { Bettadawg } from "./pages/bettadawg";
 import ScrollToTop from "./components/scrolltotop";
+import { Verifyemail } from "./pages/verifyemail";
 
 
 function App() {
@@ -74,6 +75,7 @@ function App() {
             <Route path="/bettadeepdive" element={<Bettadeepdive />} />
             <Route path="/nfldeepdive" element={<Nfldeepdive />} />
             <Route path="/bettadawg" element={<Bettadawg />} />
+            <Route path="/verifyemail" element={<Verifyemail />} />
           </Routes>
           <Footer />
         </Router>

@@ -27,6 +27,7 @@ export const Navbar = () => {
   if (pathname === "/bettadeepdive") return null;
   if (pathname === "/nfldeepdive") return null;
   if (pathname === "/bettadawg") return null;
+  if (pathname === "/verifyemail") return null;
 
     return (
      <div className="relative">
