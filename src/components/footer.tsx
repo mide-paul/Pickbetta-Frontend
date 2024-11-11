@@ -21,10 +21,10 @@ export const Footer = () => {
           <img
             src={logo}
             alt=""
-            className="absolute ss:invisible  sm:invisible  x:h-7 x:mt-6 x:ml-11 x:z-10 x:visible       xl:h-7 xl:mt-6 xl:ml-11 xl:z-10 xl:visible"
+            className="absolute ss:invisible  sm:invisible  md:h-7 md:mt-6 md:ml-11 md:z-10 md:visible     x:h-7 x:mt-6 x:ml-11 x:z-10 x:visible       xl:h-7 xl:mt-6 xl:ml-11 xl:z-10 xl:visible"
           />
           <div>
-            <p className="relative ss:mt-5 ss:ml-5 ss:text-left ss:max-w-19.6    sm:mt-5 sm:ml-5 text-base text-white-light sm:text-left sm:max-w-19.6 font-montserrat  x:ml-11 x:mt-11 x:max-w-32        xl:ml-11 xl:mt-11 xl:max-w-32">
+            <p className="relative ss:mt-5 ss:ml-5 ss:text-left ss:max-w-19.6    sm:mt-5 sm:ml-5 text-base text-white-light sm:text-left sm:max-w-19.6 font-montserrat md:ml-11 md:mt-11 md:max-w-32     x:ml-11 x:mt-11 x:max-w-32        xl:ml-11 xl:mt-11 xl:max-w-32">
               This website does not endorse, encourage, or facilitate illegal
               gambling. All information provided by{" "}
               <span className="text-xl font-semibold">PickBetta</span> is
@@ -37,7 +37,7 @@ export const Footer = () => {
               comply with applicable laws.
             </p>
 
-            <div className="absolute  ss:mt-6 sm:mt-6 ss:ml-5  sm:ml-5 flex flex-col ss:gap-3 sm:gap-3 lg:gap-3 text-left lg:mt-7 lg:ml-8  x:ml-45 x:-mt-19.2 x:gap-6     xl:ml-45 xl:-mt-19.2 xl:gap-6">
+            <div className="absolute  ss:mt-6 sm:mt-6 ss:ml-5  sm:ml-5 flex flex-col ss:gap-3 sm:gap-3 lg:gap-3 text-left lg:mt-7 lg:ml-8  x:ml-45 x:-mt-19.2 x:gap-6  md:ml-11 md:mt-8 md:max-w-32   xl:ml-45 xl:-mt-19.2 xl:gap-6">
               <h3 className="relative text-white font-bold lg:text-sm lg:hover:text-green font-montserrat">
                 Company
               </h3>
@@ -65,9 +65,9 @@ export const Footer = () => {
               <img
                 src={envelope_white}
                 alt=""
-                className="absolute ss:mt-19.14 ss:ml-5 sm:mt-19.15 sm:ml-5  x:ml-69 x:-mt-19.2      xl:ml-69 xl:-mt-19.2"
+                className="absolute ss:mt-19.14 ss:ml-5 sm:mt-19.15 sm:ml-5  md:ml-11 md:mt-19 md:max-w-32  x:ml-44.5 x:-mt-4      xl:ml-69 xl:-mt-19.2"
               />
-              <p className="absolute ss:mt-18 sm:mt-18 ss:ml-7.5 sm:ml-7.5 text-base text-white-light text-left max-w-22 font-montserrat x:ml-71 x:-mt-19.23    xl:ml-71 xl:-mt-19.23">
+              <p className="absolute ss:mt-18 sm:mt-18 ss:ml-7.5 sm:ml-7.5 text-base  md:ml-13 md:mt-19 md:max-w-32   text-white-light text-left max-w-22 font-montserrat x:ml-46 x:-mt-4    xl:ml-71 xl:-mt-19.23">
                 support@pickbetta.com
               </p>
             </div>
@@ -75,10 +75,10 @@ export const Footer = () => {
             <img
               src={line}
               alt=""
-              className="absolute ss:-0.1 ss:h-0.1 ss:mt-19.3 ss:w-19.3 ss:ml-5 sm:-0.1  sm:h-0.1 sm:mt-19.3 sm:ml-5 lg:mt-19.2 lg:ml-39 sm:w-20.5    x:hidden  xl:hidden"
+              className="absolute ss:-0.1 ss:h-0.1 ss:mt-19.3 ss:w-19.3 ss:ml-5 sm:-0.1  sm:h-0.1 sm:mt-19.3 sm:ml-5 lg:mt-19.2 lg:ml-39 sm:w-20.5 md:ml-11 md:mt-19.5 md:max-w-32    x:hidden  xl:hidden"
             />
 
-            <div className="absolute ss:mt-19.6 ss:ml-12 sm:mt-19.6 sm:ml-13.5 lg:mt-19.6 lg:ml-39 flex gap-2   x:ml-70 x:mt-5.4     xl:ml-70 xl:mt-5.4">
+            <div className="absolute ss:mt-19.6 ss:ml-12 sm:mt-19.6 sm:ml-13.5  md:ml-15 md:mt-20  lg:mt-19.6 lg:ml-39 flex gap-2   x:ml-44 x:mt-5.4     xl:ml-70 xl:mt-5.4">
               <img
                 src={facebook}
                 alt="for facebook link"
@@ -102,7 +102,7 @@ export const Footer = () => {
             </div>
 
             <div>
-              <h3 className="absolute ss:mt-20.5 ss:ml-7.5 sm:ml-9 sm:mt-20.5 text-white text-sm lg:ml-35 lg:mt-22.5 font-montserrat  x:ml-11 x:mt-7.5   xl:ml-11 xl:mt-7.5">
+              <h3 className="absolute ss:mt-20.5 ss:ml-7.5 sm:ml-9 sm:mt-20.5 text-white text-sm lg:ml-35 lg:mt-22.5 font-montserrat md:ml-11 md:mt-21.5     x:ml-11 x:mt-7.5   xl:ml-11 xl:mt-7.5">
                 © 2024 PickBetta. All Rights Reserved
               </h3>
             </div>
