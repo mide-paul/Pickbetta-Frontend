@@ -10,15 +10,16 @@ export default {
   prefix: "",
   theme: {
     screens: {
-      ss: "320px",
-      sm: "375px",
-      md: "768px",
-      lg: "976px",
-      x:  "1024px",
-      xl: "1440px",
+      ss: "320px", // small screen
+      sm: "375px", // medium screen
+      md: "768px", // tablet screen
+      // lg: "976px", 
+      x:  "1024px", // laptop medium
+      xx: "1500px", 
+      xl: "1440px", // Desktop
     },
     colors: {
-      white: "#ffffff",
+      "white": "#ffffff",
       "white-light": "#EDEFFA",
       blue: "#1b3664",
       "light-blue": "#001266",

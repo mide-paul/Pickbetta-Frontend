@@ -65,9 +65,9 @@ export const Footer = () => {
               <img
                 src={envelope_white}
                 alt=""
-                className="absolute ss:mt-19.14 ss:ml-5 sm:mt-19.15 sm:ml-5  md:ml-11 md:mt-19 md:max-w-32  x:ml-44.5 x:-mt-4      xl:ml-69 xl:-mt-19.2"
+                className="absolute ss:mt-19.14 ss:ml-5 sm:mt-19.15 sm:ml-5  md:ml-11 md:mt-19 md:max-w-32  x:ml-66 x:-mt-19.17      xl:ml-69 xl:-mt-19.2"
               />
-              <p className="absolute ss:mt-18 sm:mt-18 ss:ml-7.5 sm:ml-7.5 text-base  md:ml-13 md:mt-19 md:max-w-32   text-white-light text-left max-w-22 font-montserrat x:ml-46 x:-mt-4    xl:ml-71 xl:-mt-19.23">
+              <p className="absolute ss:mt-18 sm:mt-18 ss:ml-7.5 sm:ml-7.5 text-base  md:ml-13 md:mt-19 md:max-w-32   text-white-light text-left max-w-22 font-montserrat x:ml-68 x:-mt-19.2    xl:ml-71 xl:-mt-19.23">
                 support@pickbetta.com
               </p>
             </div>
@@ -78,7 +78,7 @@ export const Footer = () => {
               className="absolute ss:-0.1 ss:h-0.1 ss:mt-19.3 ss:w-19.3 ss:ml-5 sm:-0.1  sm:h-0.1 sm:mt-19.3 sm:ml-5 lg:mt-19.2 lg:ml-39 sm:w-20.5 md:ml-11 md:mt-19.5 md:max-w-32    x:hidden  xl:hidden"
             />
 
-            <div className="absolute ss:mt-19.6 ss:ml-12 sm:mt-19.6 sm:ml-13.5  md:ml-15 md:mt-20  lg:mt-19.6 lg:ml-39 flex gap-2   x:ml-44 x:mt-5.4     xl:ml-70 xl:mt-5.4">
+            <div className="absolute ss:mt-19.6 ss:ml-12 sm:mt-19.6 sm:ml-13.5  md:ml-15 md:mt-20  lg:mt-19.6 lg:ml-39 flex gap-2   x:ml-68 x:mt-5.4     xl:ml-70 xl:mt-5.4">
               <img
                 src={facebook}
                 alt="for facebook link"
