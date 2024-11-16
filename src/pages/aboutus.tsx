@@ -11,11 +11,11 @@ export const Aboutus = () => {
   return (
     <div className="about">
       <div>
-        <h3 className="relative sm:text-5xl sm:text-dark sm:font-extrabold sm:mt-11 sm:ml-0 sm:max-w-26 sm:text-center font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-11 xl:ml-32 xl:font-g xl:max-w-28">
+        <h3 className="relative   ss:text-5xl ss:text-dark ss:font-extrabold ss:mt-10 ss:ml-0 ss:max-w-26 ss:text-center       sm:text-5xl sm:text-dark sm:font-extrabold sm:mt-11 sm:ml-0 sm:max-w-26 sm:text-center font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-5xl xl:mt-11 xl:ml-32 xl:font-g xl:max-w-28">
           About Us
         </h3>
         <p
-          className="relative sm:text-center sm:text-base sm:text-gray sm:mt-4 sm:ml-5 max-w-20 font-montserrat
+          className="relative     ss:text-center ss:text-base ss:text-gray ss:mt-4 ss:ml-2      sm:text-center sm:text-base sm:text-gray sm:mt-4 sm:ml-5 max-w-20 font-montserrat
        xl:text-center xl:max-w-72 xl:ml-13 "
         >
           The Story Behind PickBetta: From Frustration to Empowerment
@@ -23,9 +23,9 @@ export const Aboutus = () => {
         <img
           src={aboutus_image}
           alt=""
-          className="relative sm:h-15 sm:mt-6 sm:ml-5 sm:w-20.5 xl:ml-33 xl:w-25 xl:mt-12.5"
+          className="relative    ss:h-15 ss:mt-6 ss:ml-2 ss:w-20       sm:h-15 sm:mt-6 sm:ml-5 sm:w-20.5 xl:ml-33 xl:w-25 xl:mt-12.5"
         />
-        <p className="relative sm:mt-6 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:text-center xl:max-w-66.4 xl:ml-16 xl:-mt-19.5">
+        <p className="relative      ss:mt-6 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3          sm:mt-6 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:text-center xl:max-w-66.4 xl:ml-16 xl:-mt-19.5">
           For over 40 years, I’ve been where you are—deep in the trenches of
           sports betting, constantly searching for that edge. Like so many
           bettors, I fell into the trap of paying thousands to so-called
@@ -36,11 +36,11 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl sm:font-extrabold sm:text-left font-montserrat xl:ml-35 xl:mt-19.5">
+        <h3 className="relative    ss:ml-4 ss:mt-6 ss:text-xl ss:font-extrabold ss:text-left      sm:ml-5 sm:mt-6 sm:text-xl sm:font-extrabold sm:text-left font-montserrat xl:ml-35 xl:mt-19.5">
           The Pain of Paying for Picks
         </h3>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative   ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3      sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-35 xl:max-w-47"
         >
           The cycle was exhausting. I’d pay for picks, win some, lose some, and
@@ -59,13 +59,13 @@ export const Aboutus = () => {
       </div>
       <div>
         <h3
-          className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left font-montserrat
+          className="relative    ss:ml-4 ss:mt-5 ss:text-xl ss:text-left        sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left font-montserrat
         xl:ml-35 xl:mt-5 xl:mb-5"
         >
           The Turning Point
         </h3>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3     sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-35 xl:max-w-47"
         >
           I realized I had to change my approach. It was time to stop chasing
@@ -89,11 +89,11 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
+        <h3 className="relative   ss:ml-4 ss:mt-5 ss:text-xl  ss:text-left ss:max-w-20          sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
           The Problem with Paying for Picks
         </h3>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative   ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.4    sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
          xl:ml-35 xl:max-w-45"
         >
           Paying for picks might seem like a shortcut to success, but it rarely
@@ -107,11 +107,11 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
+        <h3 className="relative   ss:ml-4 ss:mt-5 ss:text-xl  ss:text-left ss:max-w-20        sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
           Our Solution: Data Empowerment
         </h3>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3     sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-35 xl:max-w-42"
         >
           At PickBetta, we have officially broken this cycle. We believe you’re
@@ -127,11 +127,11 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
+        <h3 className="relative  ss:ml-4 ss:mt-5 ss:text-xl ss:text-left ss:max-w-20      sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
           A New Way to Bet
         </h3>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative   ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3      sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-35 xl:max-w-42"
         >
           We’ve been through the frustrations, the wasted money, and the missed
@@ -150,11 +150,11 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-21 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
+        <h3 className="relative  ss:ml-4 ss:mt-6 ss:text-xl  ss:text-left ss:max-w-21       sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-21 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
           Here’s what drives PickBetta:
         </h3>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3        sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -168,7 +168,7 @@ export const Aboutus = () => {
       </div>
       <div>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3   sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -182,7 +182,7 @@ export const Aboutus = () => {
       </div>
       <div>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3       sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -196,11 +196,11 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-7 xl:mb-5 xl:max-w-25">
+        <h3 className="relative  ss:ml-4 ss:mt-5 ss:text-xl  ss:text-left ss:max-w-20       sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-7 xl:mb-5 xl:max-w-25">
           The Future of Betting
         </h3>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3      sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-35 xl:max-w-50"
         >
           PickBetta is more than just a tool—it’s a movement. It’s about
@@ -208,7 +208,7 @@ export const Aboutus = () => {
           that empowers bettors to succeed on their own terms.
         </p>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3       sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-35 xl:max-w-42 xl:mt-7"
         >
           We’ve all been frustrated by the typical betting sites that seem more
@@ -220,14 +220,14 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-4xl xl:mt-10 xl:ml-12 xl:font-g xl:max-w-14 ">
+        <h3 className="relative   ss:ml-4 ss:mt-6 ss:text-xl ss:text-left ss:max-w-20       sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:text-center xl:text-dark-gray-900 xl:text-4xl xl:mt-10 xl:ml-12 xl:font-g xl:max-w-14 ">
           Mission
         </h3>
-        <p className="relative sm:ml-5 sm:mt-6 text-gray sm:text-xl sm:font-normal sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:max-w-42 xl:-mt-7">
+        <p className="relative  ss:ml-4 ss:mt-5 ss:text-xl ss:font-normal ss:text-left ss:max-w-20    sm:ml-5 sm:mt-6 text-gray sm:text-xl sm:font-normal sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:max-w-42 xl:-mt-7">
           Offer Value in a Competitive Industry:
         </p>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3       sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
          xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -240,7 +240,7 @@ export const Aboutus = () => {
           users to understand the logic and methodology.
         </p>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3       sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
          xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -254,7 +254,7 @@ export const Aboutus = () => {
           strategies.
         </p>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3       sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
          xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -267,7 +267,7 @@ export const Aboutus = () => {
           and current conditions.
         </p>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3       sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
          xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -281,11 +281,11 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl sm:font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
+        <h3 className="relative  ss:ml-4 ss:mt-5 ss:text-xl ss:font-extrabold ss:text-left ss:max-w-20      sm:ml-5 sm:mt-6 sm:text-xl sm:font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:mt-5 xl:mb-5 xl:max-w-25">
           How are we unique?
         </h3>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3      sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -298,7 +298,7 @@ export const Aboutus = () => {
           own decisions confidently.
         </p>
         <p
-          className="relative sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
+          className="relative  ss:mt-4 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3      sm:mt-4 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat
         xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50"
         >
           <span className="text-x font-bold text-gray-dark">
@@ -310,27 +310,27 @@ export const Aboutus = () => {
         </p>
       </div>
       <div>
-        <h3 className="relative sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:text-left xl:text-dark-gray-900 xl:text-4xl xl:mt-10 xl:ml-12 xl:font-g xl:max-w-20">
+        <h3 className="relative  ss:ml-4 ss:mt-5 ss:text-xl  ss:text-left ss:max-w-20     sm:ml-5 sm:mt-6 sm:text-xl font-extrabold sm:text-left sm:max-w-20 font-montserrat xl:text-left xl:text-dark-gray-900 xl:text-4xl xl:mt-10 xl:ml-12 xl:font-g xl:max-w-20">
           Unique Value Proposition (UVP):
         </h3>
-        <p className="relative sm:ml-5 sm:mt-3 text-gray sm:text-xl sm:font-normal sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:max-w-42 xl:-mt-13 xl:text-dark-gray-900 xl:font-extrabold">
+        <p className="relative    ss:ml-4 ss:mt-3  ss:text-xl ss:font-normal ss:text-left ss:max-w-20       sm:ml-5 sm:mt-3 text-gray sm:text-xl sm:font-normal sm:text-left sm:max-w-20 font-montserrat xl:ml-35 xl:max-w-42 xl:-mt-13 xl:text-dark-gray-900 xl:font-extrabold">
           Why PickBetta?
         </p>
-        <p className="relative sm:mt-2 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50">
+        <p className="relative  ss:mt-2 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3     sm:mt-2 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50">
           <span className="text-x font-bold text-gray-dark">
             1. Integrity Over Influence: <br />
           </span>
           We don’t sell you picks. We equip you with the most accurate,
           relevant, and actionable data, so you can make smarter bets.
         </p>
-        <p className="relative sm:mt-2 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50">
+        <p className="relative  ss:mt-2 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3    sm:mt-2 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50">
           <span className="text-x font-bold text-gray-dark">
             2. 100% Fact-Checked: <br />
           </span>
           Every stat, every trend, rigorously verified to ensure you’re betting
           with the best information available.
         </p>
-        <p className="relative sm:mt-2 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50">
+        <p className="relative  ss:mt-2 ss:ml-4 ss:text-base  ss:text-left ss:max-w-19.3    sm:mt-2 sm:ml-5 sm:text-base text-gray sm:text-left sm:max-w-19.4 font-montserrat xl:ml-37 xl:mt-5 xl:mb-5 xl:max-w-50">
           <span className="text-x font-bold text-gray-dark">
             3. Custom-Tailored Experience: <br />
           </span>
@@ -341,164 +341,325 @@ export const Aboutus = () => {
 
       <div>
         <div>
-          <h3 className='relative sm:ml-5 sm:text-dark sm:mt-5 sm:text-xl sm:text-left font-bold xl:text-dark xl:mt-12 xl:text-3xl xl:text-center'>
+          <h3 className="relative    ss:ml-4 ss:text-dark ss:mt-4 ss:text-xl ss:text-left       sm:ml-5 sm:text-dark sm:mt-5 sm:text-xl sm:text-left font-bold xl:text-dark xl:mt-12 xl:text-3xl xl:text-center">
             Meet the Team
           </h3>
-          <p className='relative sm:ml-5 sm:mt-5 sm:text-gray sm:text-base sm:text-left sm:max-w-19.4 font-medium xl:mt-5 xl:ml-19.1 xl:text-gray xl:text-base xl:text-center xl:max-w-60'>
-          Just take a look - each member of the team is watching your every gesture and will hear your every whisper.
+          <p className="relative   ss:ml-4 ss:mt-5 ss:text-gray ss:text-base ss:text-left ss:max-w-19.3        sm:ml-5 sm:mt-5 sm:text-gray sm:text-base sm:text-left sm:max-w-19.4 font-medium xl:mt-5 xl:ml-19.1 xl:text-gray xl:text-base xl:text-center xl:max-w-60">
+            Just take a look - each member of the team is watching your every
+            gesture and will hear your every whisper.
           </p>
         </div>
 
-        <div className='sm:flex sm:flex-col xl:flex-row xl:flex-wrap'>
-          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7'>
-          <img
-            src={amanda}
-            className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
-          />
-          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
-          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
-          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
-          There are many variations of passages of Lorem Ipsum available
-          </p>
+        <div className=" ss:flex ss:flex-col    sm:flex sm:flex-col xl:flex-row xl:flex-wrap">
+          <div className="relative  ss:mt-5 ss:ml-4 ss:h-23 ss:w-19.3 ss:border ss:border-gray ss:bg-transparent         sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7">
+            <img
+              src={amanda}
+              className="relative ss:mt-3 ss:ml-8 ss:h-16 ss:w-15   sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
+            />
+            <h3 className="relative ss:mt-5 ss:text-center ss:text-dark ss:text-sm   sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold">
+              Amanda Fisher
+            </h3>
+            <h3 className="relative   ss:mt-1 ss:text-center ss:text-dark ss:text-sm     sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
+              Founder
+            </h3>
+            <p className="relative   ss:ml-3 ss:mt-1 ss:text-center ss:text-gray ss:text-sm ss:max-w-19.1      sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+              There are many variations of passages of Lorem Ipsum available
+            </p>
 
-            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
-              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            <div className="absolute  ss:mt-3 ss:ml-10     sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img
+                src={facebook}
+                alt="for facebook link"
+                className="relative ss:h-4.5  sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={message}
+                alt="for facebook link"
+                className="relative ss:h-4.5 sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={instagram}
+                alt="for facebook link"
+                className="relative  ss:h-4.5 sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={youtube}
+                alt="for facebook link"
+                className="relative ss:h-4.5   sm:h-4.5 xl:h-5.1"
+              />
             </div>
           </div>
 
-          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7'>
-          <img
-            src={fisher}
-            className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
-          />
-          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
-          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
-          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
-          There are many variations of passages of Lorem Ipsum available
-          </p>
+          <div className="relative   ss:mt-5 ss:ml-4 ss:h-23 ss:w-19.3 ss:border ss:border-gray ss:bg-transparent   sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7">
+            <img
+              src={fisher}
+              className="relative ss:mt-3 ss:ml-5 ss:h-16 ss:w-18      sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
+            />
+            <h3 className="relative  ss:mt-5 ss:text-center ss:text-dark ss:text-sm     sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold">
+              Amanda Fisher
+            </h3>
+            <h3 className="relative   ss:mt-1 ss:text-center ss:text-dark ss:text-sm      sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
+              Founder
+            </h3>
+            <p className="relative   sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1        sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+              There are many variations of passages of Lorem Ipsum available
+            </p>
 
             <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
-              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img
+                src={facebook}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={message}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={instagram}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={youtube}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
             </div>
           </div>
 
-          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7'>
-          <img
-            src={amanda}
-            className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
-          />
-          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
-          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
-          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
-          There are many variations of passages of Lorem Ipsum available
-          </p>
+          <div className="relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7">
+            <img
+              src={amanda}
+              className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
+            />
+            <h3 className="relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold">
+              Amanda Fisher
+            </h3>
+            <h3 className="relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
+              Founder
+            </h3>
+            <p className="relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+              There are many variations of passages of Lorem Ipsum available
+            </p>
 
             <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
-              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img
+                src={facebook}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={message}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={instagram}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={youtube}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
             </div>
           </div>
 
-          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7'>
-          <img
-            src={fisher}
-            className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
-          />
-          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
-          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
-          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
-          There are many variations of passages of Lorem Ipsum available
-          </p>
+          <div className="relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-7">
+            <img
+              src={fisher}
+              className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
+            />
+            <h3 className="relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold">
+              Amanda Fisher
+            </h3>
+            <h3 className="relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
+              Founder
+            </h3>
+            <p className="relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+              There are many variations of passages of Lorem Ipsum available
+            </p>
 
             <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
-              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img
+                src={facebook}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={message}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={instagram}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={youtube}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
             </div>
           </div>
 
-          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:ml-10 xl:mt-8'>
-          <img
-            src={amanda}
-            className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
-          />
-          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
-          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
-          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
-          There are many variations of passages of Lorem Ipsum available
-          </p>
+          <div className="relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:ml-10 xl:mt-8">
+            <img
+              src={amanda}
+              className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
+            />
+            <h3 className="relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold">
+              Amanda Fisher
+            </h3>
+            <h3 className="relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
+              Founder
+            </h3>
+            <p className="relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+              There are many variations of passages of Lorem Ipsum available
+            </p>
 
-           <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
-              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+            <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
+              <img
+                src={facebook}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={message}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={instagram}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={youtube}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
             </div>
           </div>
 
-          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8'>
-          <img
-            src={fisher}
-            className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
-          />
-          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
-          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
-          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
-          There are many variations of passages of Lorem Ipsum available
-          </p>
+          <div className="relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8">
+            <img
+              src={fisher}
+              className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
+            />
+            <h3 className="relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold">
+              Amanda Fisher
+            </h3>
+            <h3 className="relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
+              Founder
+            </h3>
+            <p className="relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+              There are many variations of passages of Lorem Ipsum available
+            </p>
 
             <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
-              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img
+                src={facebook}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={message}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={instagram}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={youtube}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
             </div>
           </div>
 
-          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8'>
-          <img
-            src={amanda}
-            className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
-          />
-          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
-          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
-          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
-          There are many variations of passages of Lorem Ipsum available
-          </p>
+          <div className="relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8">
+            <img
+              src={amanda}
+              className="relative sm:mt-3 sm:ml-8 sm:h-16 sm:w-15"
+            />
+            <h3 className="relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold">
+              Amanda Fisher
+            </h3>
+            <h3 className="relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
+              Founder
+            </h3>
+            <p className="relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+              There are many variations of passages of Lorem Ipsum available
+            </p>
 
             <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
-              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img
+                src={facebook}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={message}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={instagram}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={youtube}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
             </div>
           </div>
 
-          <div className='relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8'>
-          <img
-            src={fisher}
-            className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
-          />
-          <h3 className='relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold'>Amanda Fisher</h3>
-          <h3 className='relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium'>Founder</h3>
-          <p className='relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium'>
-          There are many variations of passages of Lorem Ipsum available
-          </p>
+          <div className="relative sm:mt-5 sm:ml-7 sm:h-23 sm:w-19.3 sm:border sm:border-gray sm:bg-transparent rounded xl:mt-8">
+            <img
+              src={fisher}
+              className="relative sm:mt-3 sm:ml-5 sm:h-16 sm:w-18"
+            />
+            <h3 className="relative sm:mt-5 sm:text-center sm:text-dark sm:text-sm font-bold">
+              Amanda Fisher
+            </h3>
+            <h3 className="relative sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
+              Founder
+            </h3>
+            <p className="relative sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+              There are many variations of passages of Lorem Ipsum available
+            </p>
 
             <div className="absolute sm:mt-3 sm:ml-10.5 lg:mt-19.6 flex gap-2 xl:ml-8 xl:mt-1">
-              <img src={facebook} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={message} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={instagram} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
-              <img src={youtube} alt="for facebook link" className="relative sm:h-4.5 xl:h-5.1" />
+              <img
+                src={facebook}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={message}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={instagram}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
+              <img
+                src={youtube}
+                alt="for facebook link"
+                className="relative sm:h-4.5 xl:h-5.1"
+              />
             </div>
           </div>
         </div>
