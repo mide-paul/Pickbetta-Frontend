@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import axios, { AxiosError } from "axios";
+//import axios, { AxiosError } from "axios";
+import { Loader } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { faCheck, faTimes, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,12 +13,14 @@ import apple from './../assets/icons/apple_dark.png'
 import { Icon } from 'react-icons-kit';
 import { eyeOff } from 'react-icons-kit/feather/eyeOff';
 import { eye } from 'react-icons-kit/feather/eye';
-import { LoginType } from "../core/enum";
+import { useAuthStore } from "../store/authStore";
 
-const EMAIL_REGEX = /^(?=.*[a-z])(?=.*[@]).{3,23}$/;
-const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,15}$/;
+const EMAIL_REGEX = /^(?=.*[a-z])(?=.*[@]).{3,39}$/;
+const PWD_REGEX = /^(?=.*[a-z][a-z][a-z])(?=.*[A-Z][A-Z])(?=.*[0-9][0-9])(?=.*[?&()_+={}[:;'"<>,|/~!@#$%]).{8,15}$/;
 
 export const Login = () => {
+
+  //const {user} = useAuthStore;
 
   const userRef = useRef<HTMLInputElement | null>(null);
 
@@ -25,26 +28,28 @@ export const Login = () => {
   const [validEmail, setValidEmail] = useState(false);
   const [emailFocus, setEmailFocus] = useState(false);
 
-  const [pwd, setPwd] = useState('');
-  const [validPwd, setValidPwd] = useState(false);
-  const [pwdFocus, setPwdFocus] = useState(false);
+  const [password, setPassword] = useState('');
+  const [validPassword, setValidPassword] = useState(false);
+  const [passwordFocus, setPasswordFocus] = useState(false);
 
   const [type, setType] = useState('password');
   const [icon, setIcon] = useState(eyeOff);
 
-  const [login, setLogin] = useState<LoginType | null>(null)
+  // const [alert, setAlert] = useState({
+  //   show: false,
+  //   message: ""
+  // });
 
-  const [alert, setAlert] = useState({
-    show: false,
-    message: ""
-  });
+  const { login, isLoading, error } = useAuthStore();
+
+  const navigate = useNavigate();
 
   const handleToggle = () => {
     if (type === 'password') {
-      setIcon(eye);
+      setIcon(eyeOff);
       setType('text')
     } else {
-      setIcon(eyeOff)
+      setIcon(eye)
       setType('password')
     }
   }
@@ -60,53 +65,59 @@ export const Login = () => {
   }, [email])
 
   useEffect(() => {
-    setValidPwd(PWD_REGEX.test(pwd));
-  }, [pwd])
+    setValidPassword(PWD_REGEX.test(password));
+  }, [password])
 
-  const navigate = useNavigate();
+  const handleLogin = async (e: any) => {
+		e.preventDefault();
+		await login(email, password);
+    navigate("/homesignedin");
+	};
 
-  async function userLogin() {
-    try {
+  //const navigate = useNavigate();
 
-      let result = await axios.post("https://pickbetta-user-service-mmkpr.ondigitalocean.app/api/auth/login",
-        {
-          "email": email,
-          "password": pwd
-        },
-        {
-          headers: {
-            "Content-Type": 'application/json',
-            "Accept": 'application/json'
-          }
-        },
-      );
+  // async function userLogin() {
+  //   try {
 
-      if (result.status == 200 || result.status == 201) {
-        alert.show = false;
-        const { data } = result.data;
+  //     let result = await axios.post("https://pickbetta-user-service-mmkpr.ondigitalocean.app/api/auth/login",
+  //       {
+  //         "email": email,
+  //         "password": password
+  //       },
+  //       {
+  //         headers: {
+  //           "Content-Type": 'application/json',
+  //           "Accept": 'application/json'
+  //         }
+  //       },
+  //     );
 
-        localStorage.setItem("token", data.token);
-        localStorage.setItem("refreshToken", data.refreshToken);
-        localStorage.setItem("user-info", JSON.stringify(data));
+  //     if (result.status == 200 || result.status == 201) {
+  //       alert.show = false;
+  //       const { data } = result.data;
 
-        navigate("/homesignedin");
-      }
-    } catch (error) {
-      const err = error as AxiosError;
+  //       localStorage.setItem("token", data.token);
+  //       localStorage.setItem("refreshToken", data.refreshToken);
+  //       localStorage.setItem("user-info", JSON.stringify(data));
 
-      setAlert({
-        show: true,
-        message: (err.response && err.response.data && (err.response.data as any).message) || "An error occurred, Cannot Login at the moment"
-      });
+  //       navigate("/homesignedin");
+  //     }
+  //   } catch (error) {
+  //     const err = error as AxiosError;
 
-      setTimeout(() => {
-        setAlert({
-          show: false,
-          message: ""
-        })
-      }, 3000);
-    }
-  }
+  //     setAlert({
+  //       show: true,
+  //       message: (err.response && err.response.data && (err.response.data as any).message) || "An error occurred, Cannot Login at the moment"
+  //     });
+
+  //     setTimeout(() => {
+  //       setAlert({
+  //         show: false,
+  //         message: ""
+  //       })
+  //     }, 3000);
+  //   }
+  // }
 
   return (
     <div className="h-45 w-full bg-gray-white overflow-hidden">
@@ -116,10 +127,10 @@ export const Login = () => {
 
       <div>
         <Link to="/"><img src={arrow} alt="" className="relative mt-9 ml-4 w-4" /></Link>
-        <h3 className='relative ml-4 mt-4 font-medium text-dark text-left text-base font-montserrat'>Welcome Back,</h3>
+        <h3 className='relative ml-4 mt-4 font-medium text-dark text-left text-base font-montserrat'>Welcome Back, </h3>
       </div>
 
-      <form>
+      <form onSubmit={handleLogin}>
         <div className='flex flex-col'>
           <label htmlFor="email" className='relative sm:ml-4 sm:mt-4 sm:text-base text-gray text-left font-montserrat'>
             Email
@@ -144,7 +155,7 @@ export const Login = () => {
           <p id="uidnote" className={emailFocus && email &&
             !validEmail ? "instructions" : "offscreen"}>
             <FontAwesomeIcon icon={faInfoCircle} />
-            4 to 24 characters.<br />
+            4 to 40 characters.<br />
             Must begin with a letter. <br />
             only lowercase is allowed.
             Allowed special characters: @
@@ -154,49 +165,52 @@ export const Login = () => {
         <div className='flex flex-col'>
           <label htmlFor="password" className='relative sm:ml-4 sm:mt-4 sm:text-base text-gray text-left font-montserrat'>
             Password
-            <FontAwesomeIcon icon={faCheck} className={validPwd ? "valid" : "hide"} />
-            <FontAwesomeIcon icon={faTimes} className={validPwd || !pwd ? "hide" : "invalid"} />
+            <FontAwesomeIcon icon={faCheck} className={validPassword ? "valid" : "hide"} />
+            <FontAwesomeIcon icon={faTimes} className={validPassword || !password ? "hide" : "invalid"} />
           </label>
           <input
-            onClick={() => setLogin(LoginType.LOGIN)}
             type={type}
             id="password"
-            onChange={(e) => setPwd(e.target.value)}
-            value={pwd}
+            onChange={(e) => setPassword(e.target.value)}
+            value={password}
             required
             autoComplete="new-password"
-            aria-invalid={validPwd ? "false" : "true"}
+            aria-invalid={validPassword ? "false" : "true"}
             aria-describedby="pwdnote"
-            onFocus={() => setPwdFocus(true)}
-            onBlur={() => setPwdFocus(false)}
+            onFocus={() => setPasswordFocus(true)}
+            onBlur={() => setPasswordFocus(false)}
             className='relative sm:ml-4 sm:mt-2 sm:h-6.4 sm:w-21.3 sm:text-base pl-3 pr-6.2 border rounded font-montserrat'
           />
 
-          <p id="pwdnote" className={pwdFocus && !validPwd ? "instructions" : "offscreen"}>
+          <p id="pwdnote" className={passwordFocus && !validPassword ? "instructions" : "offscreen"}>
             <FontAwesomeIcon icon={faInfoCircle} />
             8 to 15 characters.<br />
-            Must include uppercase and lowercase letters, a number and a special character.<br />
-            Allowed special characters: <span aria-label="exclamation mark">!</span> <span aria-label="at symbol">@</span> <span aria-label="hashtag">#</span> <span aria-label="dollar sign">$</span> <span aria-label="percent">%</span>
+            Must include at least two uppercase letters, at least three lowercase letters, at least two digits and a special character.<br />
           </p>
 
           <span className="items-center" onClick={handleToggle}>
             <Icon className="absolute sm:ml-13 sm:-mt-6.1 z-10 cursor-pointer" icon={icon} size={20} />
           </span>
         </div>
+        {error && <p className="text-red font-semibold mt-2">{error}</p>}
 
         <div>
-          <input type='radio' className='relative ml-4 mt-4 float-left' />
+          <input
+          type='checkbox'
+          id="remember"
+          name="remember"
+          className='relative ml-4 mt-4 float-left'
+          />
           <h3 className='absolute ml-6.2 mt-4 text-sm text-dark text-left font-montserrat'>Remember me</h3>
           <h3 className='absolute ml-19 mt-4 font-semibold text-sm text-green cursor-pointer underline font-montserrat'>Forgot Password?</h3>
         </div>
 
         <button
-          type="button"
-          onClick={userLogin}
+          type="submit"
           className='relative sm:mt-8 sm:-ml-6.5 sm:h-6.4 sm:w-21.3 bg-green text-white sm:text-base rounded disabled:bg-gray-lighter disabled:text-white font-montserrat'
-          disabled={login == null}
+          disabled={isLoading}
         >
-          Login
+          {isLoading ? <Loader className='w-6 h-6 animate-spin  mx-auto' /> : "Login"}
         </button>
       </form>
 
