@@ -1,4 +1,5 @@
 import faq_styled from "./../assets/images/faq_styled.png";
+
 export const Terms = () => {
   return (
     <div className="terms">

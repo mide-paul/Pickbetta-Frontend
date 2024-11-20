@@ -5,7 +5,7 @@ import facebook from './../assets/icons/facebook.svg';
 import message from './../assets/icons/message.svg';
 import instagram from './../assets/icons/instagram.svg';
 import youtube from './../assets/icons/youtube.svg';
-import fisher from  './../assets/images/fisher.png'
+import fisher from  './../assets/images/fisher.png';
 
 export const Aboutus = () => {
   return (
@@ -401,7 +401,7 @@ export const Aboutus = () => {
             <h3 className="relative   ss:mt-1 ss:text-center ss:text-dark ss:text-sm      sm:mt-1 sm:text-center sm:text-dark sm:text-sm font-medium">
               Founder
             </h3>
-            <p className="relative   sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1        sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
+            <p className="relative   ss:ml-3 ss:mt-1 ss:text-center ss:text-gray ss:text-sm ss:max-w-19.1        sm:ml-3 sm:mt-1 sm:text-center sm:text-gray sm:text-sm sm:max-w-19.1 font-medium">
               There are many variations of passages of Lorem Ipsum available
             </p>
 
