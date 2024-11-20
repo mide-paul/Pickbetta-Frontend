@@ -40,7 +40,8 @@ export default {
       "gray-white": "#FCFCFD",
       "dark-gray": "#344054",
       "dark-gray-900": "#101828",
-      "red": "#FF0000"
+      "red": "#FF0000",
+      "gold": "#D8A428"
     },
     fontFamily: {
       montserrat: ["Montserrat"],
