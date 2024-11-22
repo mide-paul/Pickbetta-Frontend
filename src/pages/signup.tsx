@@ -12,7 +12,7 @@ import { useAuthStore } from "../store/authStore";
 
 const USER_REGEX = /^[A-z][A-z0-9-_ ]{3,30}$/;
 const EMAIL_REGEX = /^(?=.*[a-z])(?=.*[@]).{3,319}$/;
-const NUMBER_REGEX = /^[0-10][0-10-_ ]{10,10}$/;
+const NUMBER_REGEX = /^[0-10-_ ]{9,12}$/;
 const PWD_REGEX = /^(?=.*[a-z][a-z][a-z])(?=.*[A-Z][A-Z])(?=.*[0-9][0-9])(?=.*[?&()_+={}[:;'"<>,|/~!@#$%]).{8,15}$/;
 
 export const Signup = () => {
@@ -229,7 +229,6 @@ export const Signup = () => {
           <p id="uidnote" className={phoneFocus && phone &&
             !validPhone ? "instructions" : "offscreen"}>
             <FontAwesomeIcon icon={faInfoCircle} />
-            11 characters.<br />
             Must begin with a number.
             only numbers are allowed.
           </p>
@@ -308,10 +307,9 @@ export const Signup = () => {
         </div>
 
         <button
-          //disabled={!firstnameIsValid || !lastnameIsValid || !validEmail || !validPwd || !validMatch ? true : false}
+          disabled={!firstnameIsValid || !lastnameIsValid || !validEmail || !validPhone || !validPassword || !validMatch ? true : false}
           type="submit"
           className='relative sm:mt-9.5 sm:-ml-6.5 sm:h-6.4 sm:w-21.3 bg-green text-white sm:text-base rounded disabled:bg-gray-lighter disabled:text-white font-montserrat'
-          disabled={isLoading}
         >
           {isLoading ? <Loader className=' animate-spin mx-auto' size={24} /> : "Create Account"}
         </button>

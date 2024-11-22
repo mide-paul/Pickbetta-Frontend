@@ -15,7 +15,7 @@ export const Landingpage = () => {
     return (
       <div className="home">
         <div>
-          <h3 className="relative ss:mt-11 ss:ml-5 ss:max-w-19.7 ss:text-center ss:text-4xl sm:text-center sm:text-4xl text-dark font-extrabold font-montserrat sm:mt-11 sm:ml-5 sm:max-w-20xl   md:mt-11 md:ml-14 md:max-w-30 md:text-center   x:ml-10 x:mt-10  x:text-3xl x:max-w-40 x:text-left x:leading-18               xl:ml-10  xl:text-6xl xl:max-w-45 xl:text-left xl:leading-20  ">
+          <h3 className="relative ss:mt-11 ss:ml-5 ss:max-w-19.7 ss:text-center ss:text-4xl sm:text-center sm:text-4xl text-dark font-extrabold font-montserrat sm:mt-11 sm:ml-5 sm:max-w-20xl   md:mt-11 md:ml-14 md:max-w-30 md:text-center   x:ml-10 x:mt-17  x:text-3xl x:max-w-40 x:text-left x:leading-18               xl:ml-10  xl:text-6xl xl:max-w-45 xl:text-left xl:leading-20  ">
             Your ultimate source for{" "}
             <span className="ss:italic ss:text-green-deep ss:underline sm:italic  sm:text-green-deep sm:underline xl:font-medium">
               {" "}
@@ -201,9 +201,9 @@ export const Landingpage = () => {
           >
             The Clients' Testimonials
           </h3>
-          <div className="flex flex-nowrap overflow-scroll scroll-smooth">
+          <div className="flex flex-nowrap ss:overflow-scroll ss:scroll-smooth sm:overflow-scroll sm:scroll-smooth x:overflow-hidden xl:overflow-hidden xl:gap-6">
             <div className="relative ss:ml-5 ss:mt-6 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white    sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl     md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white      xl:ml-11.7 xl:min-w-24">
-              <div className="flex gap-1">
+              <div className="flex gap-1  xl:ml-4">
                 <img
                   src={star}
                   alt=""
@@ -231,7 +231,7 @@ export const Landingpage = () => {
                 />
               </div>
 
-              <p className="relative ss:ml-4 ss:mt-5 ss:text-left ss:text-gray ss:text-sm ss:max-w-19.6     sm:ml-4 sm:mt-5 sm:text-left sm:text-gray sm:text-sm sm:max-w-19.6 font-medium">
+              <p className="relative ss:ml-4 ss:mt-5 ss:text-left ss:text-gray ss:text-sm ss:max-w-19.6     sm:ml-4 sm:mt-5 sm:text-left sm:text-gray sm:text-sm sm:max-w-19.6 font-medium   xl:text-base xl:ml-6">
                 “You made it so simple. My new site is so much faster and easier
                 to work with than my old site. I just choose the page, make the
                 change.”
@@ -241,19 +241,19 @@ export const Landingpage = () => {
                 <img
                   src={leslie}
                   alt=""
-                  className="relative  ss:pt-0.5 ss:ml-0 sm:pt-0.5 sm:ml-0"
+                  className="relative  ss:pt-0.5 ss:ml-0 sm:pt-0.5 sm:ml-0  xl:ml-3"
                 />
-                <h3 className="relative ss:-mt-7.5 ss:ml-8.5 ss:text-left ss:test-dark ss:text-sm    sm:-mt-7.5 sm:ml-8.5 sm:text-left sm:test-dark sm:text-sm font-bold">
+                <h3 className="relative ss:-mt-7.5 ss:ml-8.5 ss:text-left ss:test-dark ss:text-sm    sm:-mt-7.5 sm:ml-8.5 sm:text-left sm:test-dark sm:text-sm font-bold   xl:text-base xl:ml-9.5">
                   Leslie Alexander
                 </h3>
-                <h3 className="relative ss:mt-0.5 ss:ml-8.5 ss:text-left ss:test-gray ss:text-xss   sm:mt-0.5 sm:ml-8.5 sm:text-left sm:test-gray sm:text-xss font-medium">
+                <h3 className="relative ss:mt-0.5 ss:ml-8.5 ss:text-left ss:test-gray ss:text-xss   sm:mt-0.5 sm:ml-8.5 sm:text-left sm:test-gray sm:text-xss font-medium   xl:text-sm xl:ml-9.5">
                   Freelance React Developer
                 </h3>
               </div>
             </div>
 
             <div className="relative ss:ml-5 ss:mt-5 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white   sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white   md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white      shadow rounded-xl xl:min-w-24">
-              <div className="flex gap-1">
+              <div className="flex gap-1  xl:ml-4">
                 <img
                   src={star}
                   alt=""
@@ -281,7 +281,7 @@ export const Landingpage = () => {
                 />
               </div>
 
-              <p className="relative ss:ml-4 ss:mt-5 ss:text-left ss:text-gray ss:text-sm ss:max-w-19.6    sm:ml-4 sm:mt-5 sm:text-left sm:text-gray sm:text-sm sm:max-w-19.6 font-medium">
+              <p className="relative ss:ml-4 ss:mt-5 ss:text-left ss:text-gray ss:text-sm ss:max-w-19.6    sm:ml-4 sm:mt-5 sm:text-left sm:text-gray sm:text-sm sm:max-w-19.6 font-medium   xl:text-base xl:ml-6">
                 “You made it so simple. My new site is so much faster and easier
                 to work with than my old site. I just choose the page, make the
                 change.”
@@ -291,19 +291,19 @@ export const Landingpage = () => {
                 <img
                   src={leslie}
                   alt=""
-                  className="relative ss:pt-0.5 ss:ml-0   sm:pt-0.5 sm:ml-0"
+                  className="relative ss:pt-0.5 ss:ml-0   sm:pt-0.5 sm:ml-0  xl:ml-3"
                 />
-                <h3 className="relative ss:-mt-7.5 ss:ml-8.5 ss:text-left ss:test-dark ss:text-sm   sm:-mt-7.5 sm:ml-8.5 sm:text-left sm:test-dark sm:text-sm font-bold">
+                <h3 className="relative ss:-mt-7.5 ss:ml-8.5 ss:text-left ss:test-dark ss:text-sm   sm:-mt-7.5 sm:ml-8.5 sm:text-left sm:test-dark sm:text-sm font-bold   xl:text-base xl:ml-9.5">
                   Leslie Alexander
                 </h3>
-                <h3 className="relative ss:mt-0.5 ss:ml-8.5 ss:text-left ss:test-gray ss:text-xss    sm:mt-0.5 sm:ml-8.5 sm:text-left sm:test-gray sm:text-xss font-medium">
+                <h3 className="relative ss:mt-0.5 ss:ml-8.5 ss:text-left ss:test-gray ss:text-xss    sm:mt-0.5 sm:ml-8.5 sm:text-left sm:test-gray sm:text-xss font-medium   xl:text-sm xl:ml-9.5">
                   Freelance React Developer
                 </h3>
               </div>
             </div>
 
             <div className="relative ss:ml-5 ss:mt-5 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white    sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white    md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white     shadow rounded-xl xl:min-w-24">
-              <div className="flex gap-1">
+              <div className="flex gap-1  xl:ml-4">
                 <img
                   src={star}
                   alt=""
@@ -331,7 +331,7 @@ export const Landingpage = () => {
                 />
               </div>
 
-              <p className="relative ss:ml-4 ss:mt-5 ss:text-left ss:text-gray ss:text-sm ss:max-w-19.6    sm:ml-4 sm:mt-5 sm:text-left sm:text-gray sm:text-sm sm:max-w-19.6 font-medium">
+              <p className="relative ss:ml-4 ss:mt-5 ss:text-left ss:text-gray ss:text-sm ss:max-w-19.6    sm:ml-4 sm:mt-5 sm:text-left sm:text-gray sm:text-sm sm:max-w-19.6 font-medium   xl:text-base xl:ml-6">
                 “You made it so simple. My new site is so much faster and easier
                 to work with than my old site. I just choose the page, make the
                 change.”
@@ -341,12 +341,12 @@ export const Landingpage = () => {
                 <img
                   src={leslie}
                   alt=""
-                  className="relative ss:pt-0.5 ss:ml-0    sm:pt-0.5 sm:ml-0"
+                  className="relative ss:pt-0.5 ss:ml-0    sm:pt-0.5 sm:ml-0  xl:ml-3"
                 />
-                <h3 className="relative ss:-mt-7.5 ss:ml-8.5 ss:text-left ss:test-dark ss:text-sm     sm:-mt-7.5 sm:ml-8.5 sm:text-left sm:test-dark sm:text-sm font-bold">
+                <h3 className="relative ss:-mt-7.5 ss:ml-8.5 ss:text-left ss:test-dark ss:text-sm     sm:-mt-7.5 sm:ml-8.5 sm:text-left sm:test-dark sm:text-sm font-bold   xl:text-base xl:ml-9.5">
                   Leslie Alexander
                 </h3>
-                <h3 className="relative  ss:mt-0.5 ss:ml-8.5 ss:text-left ss:test-gray ss:text-xss    sm:mt-0.5 sm:ml-8.5 sm:text-left sm:test-gray sm:text-xss font-medium">
+                <h3 className="relative  ss:mt-0.5 ss:ml-8.5 ss:text-left ss:test-gray ss:text-xss    sm:mt-0.5 sm:ml-8.5 sm:text-left sm:test-gray sm:text-xss font-medium   xl:text-sm xl:ml-9.5">
                   Freelance React Developer
                 </h3>
               </div>

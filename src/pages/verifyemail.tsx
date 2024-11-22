@@ -44,9 +44,11 @@ export const Verifyemail = () => {
 
     const handleSubmit = async (e: any) => {
         e.preventDefault();
-        const verificationCode = code.join("");
+        const otp = code.join("");
+        const email = code.join("");
         try {
-            await verifyOtp(verificationCode);
+            //verifyOtp(otp, email);
+            await verifyOtp(otp, email);
             navigate("/homesignedin");
             toast.success("Email verified successfully");
         } catch (error) {
@@ -69,7 +71,7 @@ export const Verifyemail = () => {
             <div>
                 <Link to="/signup"><img src={arrow} alt="" className="relative mt-9 ml-4 w-4" /></Link>
                 <h3 className='relative sm:ml-4 sm:mt-5 font-medium text-gray sm:text-left sm:text-base font-montserrat sm:max-w-22'>
-                    Please enter the 6-digit verification code sent to your email
+                    Please enter the 4-digit verification code sent to your email
                 </h3>
             </div>
 

@@ -74,51 +74,6 @@ export const Login = () => {
     navigate("/homesignedin");
 	};
 
-  //const navigate = useNavigate();
-
-  // async function userLogin() {
-  //   try {
-
-  //     let result = await axios.post("https://pickbetta-user-service-mmkpr.ondigitalocean.app/api/auth/login",
-  //       {
-  //         "email": email,
-  //         "password": password
-  //       },
-  //       {
-  //         headers: {
-  //           "Content-Type": 'application/json',
-  //           "Accept": 'application/json'
-  //         }
-  //       },
-  //     );
-
-  //     if (result.status == 200 || result.status == 201) {
-  //       alert.show = false;
-  //       const { data } = result.data;
-
-  //       localStorage.setItem("token", data.token);
-  //       localStorage.setItem("refreshToken", data.refreshToken);
-  //       localStorage.setItem("user-info", JSON.stringify(data));
-
-  //       navigate("/homesignedin");
-  //     }
-  //   } catch (error) {
-  //     const err = error as AxiosError;
-
-  //     setAlert({
-  //       show: true,
-  //       message: (err.response && err.response.data && (err.response.data as any).message) || "An error occurred, Cannot Login at the moment"
-  //     });
-
-  //     setTimeout(() => {
-  //       setAlert({
-  //         show: false,
-  //         message: ""
-  //       })
-  //     }, 3000);
-  //   }
-  // }
-
   return (
     <div className="h-45 w-full bg-gray-white overflow-hidden">
       <div>
@@ -208,7 +163,7 @@ export const Login = () => {
         <button
           type="submit"
           className='relative sm:mt-8 sm:-ml-6.5 sm:h-6.4 sm:w-21.3 bg-green text-white sm:text-base rounded disabled:bg-gray-lighter disabled:text-white font-montserrat'
-          disabled={isLoading}
+          disabled={!validEmail || !validPassword ? true : false}
         >
           {isLoading ? <Loader className='w-6 h-6 animate-spin  mx-auto' /> : "Login"}
         </button>

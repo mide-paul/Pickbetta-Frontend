@@ -1,11 +1,11 @@
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-import facebook from './../assets/icons/facebook.png';
-import message from './../assets/icons/message.png';
-import instagram from './../assets/icons/instagram.png';
-import youtube from './../assets/icons/youtube.png';
+import facebook from './../assets/icons/facebook.svg';
+import message from './../assets/icons/messages.svg';
+import instagram from './../assets/icons/instagram.svg';
+import youtube from './../assets/icons/youtube.svg';
 import line from './../assets/images/line_white.png'
-import envelope_white from './../assets/icons/envelope_white.png'
+import mail from './../assets/icons/mail.svg'
 import logo from './../assets/icons/logo.png'
 
 export const Footer = () => {
@@ -16,6 +16,8 @@ export const Footer = () => {
   if (pathname === "/verifyemail") return null;
   if (pathname === "/homesignedin") return null;
   if (pathname === "/editornote") return null;
+  if (pathname === "/bettadeepdive") return null;
+  if (pathname === "/nfldeepdive") return null;
   
     return (
       <div>
@@ -65,9 +67,9 @@ export const Footer = () => {
 
             <div>
               <img
-                src={envelope_white}
+                src={mail}
                 alt=""
-                className="absolute ss:mt-19.14 ss:ml-5 sm:mt-19.15 sm:ml-5  md:ml-11 md:mt-19 md:max-w-32  x:ml-66 x:-mt-19.17      xl:ml-69 xl:-mt-19.2"
+                className="absolute ss:mt-19.14 ss:ml-5 ss:bg-gray-dark ss:bg-opacity-50 ss:p-0.2 ss:rounded-full   sm:mt-19.15 sm:ml-5 sm:bg-gray-dark sm:bg-opacity-50 sm:p-0.2 sm:rounded-full  md:ml-11 md:mt-19 md:max-w-32  x:ml-66 x:-mt-19.17      xl:ml-69 xl:-mt-19.2 xl:bg-gray-dark xl:bg-opacity-50 xl:p-0.2 xl:rounded-full"
               />
               <p className="absolute ss:mt-18 sm:mt-18 ss:ml-7.5 sm:ml-7.5 text-base  md:ml-13 md:mt-19 md:max-w-32   text-white-light text-left max-w-22 font-montserrat x:ml-68 x:-mt-19.2    xl:ml-71 xl:-mt-19.23">
                 support@pickbetta.com
@@ -84,22 +86,22 @@ export const Footer = () => {
               <img
                 src={facebook}
                 alt="for facebook link"
-                className="relative ss:h-4.5 sm:h-4.5 x:h-6.5  xl:h-6.5"
+                className="relative ss:h-4.5 ss:bg-gray-dark ss:bg-opacity-50 ss:p-0.5 ss:rounded-full   sm:h-4.5 sm:bg-gray-dark sm:bg-opacity-50 sm:p-0.5 sm:rounded-full   x:h-6.5   xl:h-6.5 xl:bg-gray-dark xl:bg-opacity-50 xl:p-1.2 xl:rounded-full"
               />
               <img
                 src={message}
                 alt="for facebook link"
-                className="relative ss:h-4.5 sm:h-4.5 x:h-6.5 xl:h-6.5"
+                className="relative ss:h-4.5 ss:bg-gray-dark ss:bg-opacity-50 ss:p-0.5 ss:rounded-full   sm:h-4.5 sm:bg-gray-dark sm:bg-opacity-50 sm:p-0.5 sm:rounded-full   x:h-6.5 xl:h-6.5 xl:bg-gray-dark xl:bg-opacity-50 xl:p-1.2 xl:rounded-full"
               />
               <img
                 src={instagram}
                 alt="for facebook link"
-                className="relative ss:h-4.5 sm:h-4.5 x:h-6.5 xl:h-6.5"
+                className="relative ss:h-4.5 ss:bg-gray-dark ss:bg-opacity-50 ss:p-0.5 ss:rounded-full   sm:h-4.5 sm:bg-gray-dark sm:bg-opacity-50 sm:p-0.5 sm:rounded-full   x:h-6.5 xl:h-6.5 xl:bg-gray-dark xl:bg-opacity-50 xl:p-1.2 xl:rounded-full"
               />
               <img
                 src={youtube}
                 alt="for facebook link"
-                className="relative ss:h-4.5 sm:h-4.5 x:h-6.5 xl:h-6.5"
+                className="relative ss:h-4.5 ss:bg-gray-dark ss:bg-opacity-50 ss:p-0.5 ss:rounded-full   sm:h-4.5 sm:bg-gray-dark sm:bg-opacity-50 sm:p-0.5 sm:rounded-full   x:h-6.5 xl:h-6.5 xl:bg-gray-dark xl:bg-opacity-50 xl:p-1.2 xl:rounded-full"
               />
             </div>
 
