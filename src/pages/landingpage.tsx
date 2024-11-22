@@ -15,7 +15,7 @@ export const Landingpage = () => {
     return (
       <div className="home">
         <div>
-          <h3 className="relative ss:mt-11 ss:ml-5 ss:max-w-19.7 ss:text-center ss:text-4xl sm:text-center sm:text-4xl text-dark font-extrabold font-montserrat sm:mt-11 sm:ml-5 sm:max-w-20xl   md:mt-11 md:ml-14 md:max-w-30 md:text-center   x:ml-10 x:mt-17  x:text-3xl x:max-w-40 x:text-left x:leading-18               xl:ml-10  xl:text-6xl xl:max-w-45 xl:text-left xl:leading-20  ">
+          <h3 className="relative ss:mt-11 ss:ml-5 ss:max-w-19.7 ss:text-center ss:text-4xl sm:text-center sm:text-4xl text-dark font-extrabold font-montserrat sm:mt-11 sm:ml-5 sm:max-w-20xl   md:mt-15 md:ml-14 md:max-w-30 md:text-center   x:ml-10 x:mt-17  x:text-3xl x:max-w-40 x:text-left x:leading-18               xl:ml-10  xl:text-6xl xl:max-w-45 xl:text-left xl:leading-20  ">
             Your ultimate source for{" "}
             <span className="ss:italic ss:text-green-deep ss:underline sm:italic  sm:text-green-deep sm:underline xl:font-medium">
               {" "}
@@ -202,7 +202,7 @@ export const Landingpage = () => {
             The Clients' Testimonials
           </h3>
           <div className="flex flex-nowrap ss:overflow-scroll ss:scroll-smooth sm:overflow-scroll sm:scroll-smooth x:overflow-hidden xl:overflow-hidden xl:gap-6">
-            <div className="relative ss:ml-5 ss:mt-6 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white    sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl     md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white      xl:ml-11.7 xl:min-w-24">
+            <div className="relative ss:ml-5 ss:mt-6 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white    sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white shadow rounded-xl     md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white      xl:w-20.5 xl:ml-10 xl:min-w-24">
               <div className="flex gap-1  xl:ml-4">
                 <img
                   src={star}
@@ -252,7 +252,7 @@ export const Landingpage = () => {
               </div>
             </div>
 
-            <div className="relative ss:ml-5 ss:mt-5 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white   sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white   md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white      shadow rounded-xl xl:min-w-24">
+            <div className="relative ss:ml-5 ss:mt-5 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white   sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white   md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white      shadow rounded-xl xl:w-20.5 xl:min-w-24">
               <div className="flex gap-1  xl:ml-4">
                 <img
                   src={star}
@@ -302,7 +302,7 @@ export const Landingpage = () => {
               </div>
             </div>
 
-            <div className="relative ss:ml-5 ss:mt-5 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white    sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white    md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white     shadow rounded-xl xl:min-w-24">
+            <div className="relative ss:ml-5 ss:mt-5 ss:h-17 ss:w-20.5 ss:min-w-20.5 ss:bg-white    sm:ml-5 sm:mt-5 sm:h-17 sm:w-20.5 sm:min-w-20.5 sm:bg-white    md:ml-5 md:mt-10 md:h-18 md:w-30 md:min-w-25 md:bg-white     shadow rounded-xl xl:w-20.5 xl:min-w-24">
               <div className="flex gap-1  xl:ml-4">
                 <img
                   src={star}

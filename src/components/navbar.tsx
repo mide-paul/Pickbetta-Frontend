@@ -97,7 +97,7 @@ export const Navbar = () => {
           </div>
         </div>
 
-        <div className="fixed sm-hidden  md:bg-green-light md:w-full md:h-12    x:mt-0 x:bg-green-light x:w-full x:h-12 x:z-10  xl:mt-0 xl:bg-green-light xl:w-full xl:h-12.2 xl:z-10">
+        <div className="fixed sm-hidden  md:bg-green-light md:w-full md:h-12 md:z-20    x:mt-0 x:bg-green-light x:w-full x:h-12 x:z-20  xl:mt-0 xl:bg-green-light xl:w-full xl:h-12.2 xl:z-20">
           <img
             src={logo}
             alt=""
