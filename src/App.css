@@ -33,7 +33,7 @@
   background-color: #ffffff;
   position: relative;
   width: 100%;
-  height: 11510px;
+  height: 5240px;
   overflow: hidden;
 }
 
@@ -129,13 +129,11 @@ body {
     overflow: hidden;
   }
 
-
-
   .home {
     background-color: #ffffff;
     position: relative;
     width: 100%;
-    height: 3990px;
+    height: 3590px;
     overflow: hidden;
   }
 
@@ -143,7 +141,7 @@ body {
   background-color: #ffffff;
   position: relative;
   width: 100%;
-  height: 5590px;
+  height: 5250px;
   overflow: hidden;
   }
 
@@ -164,27 +162,27 @@ body {
 
 }
 
+@media screen and (min-width: 2001px) and (max-width: 2560px) {
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 4700px;
+    overflow: hidden;
+    }
+}
+
 @media screen and (min-width: 320px) and (max-width: 374px){
   .home{
     background-color: #ffffff;
     position: relative;
     width: 100%;
-    height: 4900px;
-    overflow: hidden;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1439px){
-  .home{
-    background-color: #ffffff;
-    position: relative;
-    width: 100%;
-    height: 3420px; 
+    height: 5040px;
     overflow: hidden;
   }
 
-  .mobile-footer{
-      height: 26rem;
+  .mobile-footer {
+    height: 42rem;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -193,8 +191,44 @@ body {
     z-index: 0;
     overflow: hidden;
   }
+
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 9090px;
+    overflow: hidden;
+    }
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px){
+  .home{
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 5000px;
+    overflow: hidden;
+  }
+
+  .mobile-footer {
+    height: 42rem;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #06543C;
+    border-radius: 0px;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .about {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 11320px;
+    overflow: hidden;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .home{
@@ -204,6 +238,27 @@ body {
     height: 5650px;
     overflow: hidden;
   }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+.home{
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 3550px;
+  overflow: hidden;
+}
+
+.mobile-footer{
+  height: 26rem;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #06543C;
+  border-radius: 0px;
+  z-index: 0;
+  overflow: hidden;
+}
 }
 
 

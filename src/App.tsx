@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route, Navigate, } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate, } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -35,7 +35,7 @@ import { Bettadeepdive } from "./pages/bettadeepdive";
 import { Nfldeepdive } from "./pages/deepdive/nfldeepdive";
 import { Bettadawg } from "./pages/bettadawg";
 import ScrollToTop from "./components/scrolltotop";
-import { Verifyemail } from "./pages/verifyemail";
+import { Verifyemail } from "./pages/verify-email";
 import { Toaster } from "react-hot-toast";
 // import { useAuthStore } from "./store/authStore";
 // import { useEffect } from "react";

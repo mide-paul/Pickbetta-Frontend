@@ -13,10 +13,10 @@ export default {
       ss: "320px", // small screen
       sm: "375px", // medium screen
       md: "768px", // tablet screen
-      // lg: "976px", 
+      lg: "976px", 
       x:  "1024px", // laptop medium
-      xx: "1500px", 
-      xl: "1440px", // Desktop
+      xx: "1440px", // laptop normal
+      xl: "2560px", // Desktop
     },
     colors: {
       "white": "#ffffff",
@@ -263,6 +263,7 @@ export default {
         "32": "32rem",
         "33": "33rem",
         "33.6": "33.6rem",
+        "34": "34rem",
         "35": "35rem",
         "36": "36rem",
         "37": "37rem",
@@ -308,11 +309,19 @@ export default {
         "66.2": "66.2rem",
         "66.4": "66.4rem",
         "67": "67rem",
+        "67.5": "67.5rem",
+        "67.7": "67.7rem",
+        "67.8": "67.8rem",
+        "67.9": "67.9rem",
         "68": "68rem",
         "69": "69rem",
         "70": "70rem",
         "71": "71rem",
         "72": "72rem",
+        "73": "73rem",
+        "73.5": "73.5rem",
+        "73.6": "73.6rem",
+        "73.7": "73.7rem",
         "74": "74rem",
         "75": "75rem",
         "75.5": "75.5rem",
@@ -334,6 +343,8 @@ export default {
         "95": "95rem",
         "100": "100rem",
         "110": "110rem",
+        "115": "115rem",
+        "115.5": "115.5rem",
         "120": "120rem",
         "128": "128rem",
         "130": "130rem",
@@ -343,6 +354,7 @@ export default {
         "134": "134rem",
         "135": "135rem",
         "136": "136rem",
+        "140": "140rem",
         "144": "144rem",
         "150": "150rem",
         "160": "160rem",
