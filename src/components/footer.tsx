@@ -82,7 +82,7 @@ export const Footer = () => {
             className="relative ss:-0.1 ss:h-0.1 ss:mt-9 ss:w-19.3 ss:ml-5 sm:-0.1 sm:h-0.1 sm:mt-9 sm:ml-5 lg:mt-19.2 lg:ml-39 sm:w-20.5 md:ml-11 md:mt-19.5 md:max-w-32 x:hidden xl:hidden"
           />
 
-          <div className="relative ss:mt-4 ss:ml-12 sm:mt-4 sm:ml-13.5 md:ml-15 md:mt-20 lg:mt-19.6 lg:ml-39 flex gap-2 x:ml-66 x:mt-18 xx:ml-73 xl:ml-130 xl:mt-30">
+          <div className="relative ss:mt-4 ss:ml-12 sm:mt-4 sm:ml-13.5 md:ml-15 md:mt-20 lg:mt-19.6 lg:ml-39 flex gap-2 x:ml-66 x:mt-18 xx:ml-73 xl:ml-130 xl:mt-23">
             <img
               src={facebook}
               alt="for facebook link"

@@ -178,6 +178,17 @@ body {
     height: 4700px;
     overflow: hidden;
     }
+
+    .mobile-footer {
+      height: 40rem;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      background-color: #06543C;
+      border-radius: 0px;
+      z-index: 0;
+      overflow: hidden;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px){
